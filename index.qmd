@@ -1,0 +1,34 @@
+---
+# title: 'Welcome to the Masiello Group: <span style="color:#757883">light-matter theory at the nanoscale</span>'
+# subtitle: "light-matter theory at the nanoscale"
+page-layout: full
+---
+<div class="gradient-text">
+
+<div class="welcome-headline">
+Welcome to the Masiello Research Group<br>
+</div>
+<div class="welcome-subheadline">
+Light-matter theory at the nanoscale
+</div>
+</div>
+
+::::{.cmm-background}
+::: {.content-container}
+::: {.welcome }
+
+
+::: grid
+::: {.g-col-12 .g-col-lg-4 .welcome-text .sand-background style="padding: 15px;"}
+
+We are a group of theoreticians with diverse backgrounds in chemistry, physics, electrical engineering, materials science, and applied mathematics working at the interface of **electron microscopy** with **nanophotonics, quantum materials, and quantum optics**. Our research provides insight and understanding in the discovery of quantum, optical, magnetic, and thermal materials phenomena spanning the frontiers of high space, momentum, polarization, and energy resolution. Deep connection to experiment influences everything we do.
+:::
+
+:::
+
+
+
+:::
+:::
+::::
+
