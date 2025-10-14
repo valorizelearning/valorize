@@ -2,6 +2,4 @@
 title: "VALORIZE"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Kata "Valorize" berasal dari bahasa Prancis valoriser dan akar Latin valor (nilai). Dalam konteks pendidikan, Valorize berarti mengakui, mengembangkan, dan merealisasikan potensi yang ada menjadi nilai nyata yang dapat diukur.
