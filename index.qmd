@@ -6,7 +6,7 @@ page-layout: full
 <div class="gradient-text">
 
 <div class="welcome-headline">
-Welcome to the Masiello Research Group<br>
+Welcome to the VALORIZE LEARNING<br>
 </div>
 <div class="welcome-subheadline">
 Light-matter theory at the nanoscale
