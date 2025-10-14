@@ -1,5 +1,19 @@
 ---
-title: "VALORIZE"
+title: "VALORIZE LEARNING: Where Value is Realized!"
+subtitle: "Kerangka pembelajaran transformatif yang mengintegrasikan **Value** (nilai), **Collaboration** (kolaborasi), Artificial **Intelligence** (Kecerdasan Buatan), dan **Personalized** Learning (Pembelajaran yang dipersonalisasi) untuk menciptakan pembelajaran yang bermakna (Value Co-Creation) dalam konteks pendidikan berorientasi nilai (Value Oriented Education)."
+title-block-banner: true
 ---
 
-Kata "Valorize" berasal dari bahasa Prancis valoriser dan akar Latin valor (nilai). Dalam konteks pendidikan, Valorize berarti mengakui, mengembangkan, dan merealisasikan potensi yang ada menjadi nilai nyata yang dapat diukur.
+## Apa itu Valorize?
+Kata "Valorize" berasal dari bahasa Prancis _valoriser_ dan akar Latin _valor_ (nilai). Dalam konteks pendidikan, Valorize berarti mengakui, mengembangkan, dan merealisasikan potensi yang ada menjadi nilai nyata yang dapat diukur.
+
+::: callout-tip
+**Quick look**  
+• VALue (Value Co-Creation & Value Oriented Education) • collabORation • artificial Intelligence • personaliZEd Learning
+:::
+
+### Mulai dari sini
+- Lihat [fitur](features.qmd)
+- Pelajari [tentang kami](about.qmd)
+
+![](assets/img/hero.png){fig-alt="Ilustrasi Valorize"}
