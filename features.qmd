@@ -1,0 +1,14 @@
+---
+title: "Features"
+---
+
+# Fitur Utama
+
+## 1) Personalized Learning Path
+Sistem memetakan kompetensi & menyarankan materi berikutnya.
+
+## 2) Dashboard & Activity Log
+Pantau progres, target harian, dan umpan balik.
+
+## 3) Rekomendasi AI
+Materi/soal/teman belajar yang relevan.
