@@ -5,13 +5,13 @@ title: "Tentang Valorize"
 # VISI VALORIZE 
 Menjadi kerangka kerja pembelajaran transformatif yang mengakui, mengembangkan, dan merealisasikan potensi peserta didik menjadi kompetensi profesional yang autentik.
 
-## Komponen Inti Framework: 
+## Komponen Inti Framework 
 VALue (Nilai-nilai luhur sebagai fondasi) Organized through CollaRation (Pembelajaran kolaboratif terorganisir) Intelligence (Kecerdasan Buatan sebagai enabler) Zones of PersonalIzed & Zenith Education (Zona pembelajaran personal menuju puncak potensi)
 
 # MISI VALORIZE 
 Memfasilitasi transformasi peserta didik dari konsumen pengetahuan pasif menjadi produsen nilai aktif melalui: Kolaborasi bermakna dalam Knowledge Marketplace berbasis peer production Pembelajaran berbasis proyek autentik yang relevan dengan kebutuhan profesional Pengembangan identitas profesional yang kuat dan adaptif 
 
-## Bukti Efektivitas: 
+## Bukti Efektivitas
 1. Peningkatan motivasi otonom: Cohen's d=0.67 
 2. Peningkatan identitas engineering: d=0.54 
 3. Peningkatan adaptive expertise: d=0.73 
