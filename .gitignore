@@ -156,3 +156,5 @@ Backup[ ]of[ ]*.numbers/
 /_site/
 _site/*
 /env/
+
+**/*.quarto_ipynb

@@ -18,9 +18,8 @@ project:
 
 website:
   title: "Julia Workshop"
-  subtitle: "ISCB 2022, Madison"
-  site-url: https://crsl4.github.io/julia-workshop
-  repo-url: https://github.com/crsl4/julia-workshop
+  site-url: https://valorizelearning.github.io/valorize/
+  repo-url: https://github.com/valorizelearning/valorize
   repo-actions: [issue]
   navbar:
     background: primary
