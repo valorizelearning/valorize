@@ -1,21 +1,29 @@
 project:
-  type: website
-
-website:
-  title: "VALORIZE"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  type: book
+  output-dir: docs
+  
+book:
+  title: VALORIZE
+  author: Valorize Learning Framework
+  repo-url: https://github.com/valorizelearning/framework/
+  repo-branch: master
+  repo-actions: [issue]
+  chapters:
+    - index.md
+    - part: Curriculum
+      chapters:
+        - valorize_introduction.ipynb
+        - altair_marks_encoding.ipynb
+        - altair_data_transformation.ipynb
+        - altair_scales_axes_legends.ipynb
+        - altair_view_composition.ipynb
+        - altair_interaction.ipynb
+        - altair_cartographic.ipynb
+    - part: Support
+      chapters:
+        - altair_debugging.ipynb
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
-
+    theme: cosmo
 

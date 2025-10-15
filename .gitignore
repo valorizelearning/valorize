@@ -1,2 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.venv
+.ipynb_checkpoints
 /.quarto/
+*_cache/
+visualization-curriculum.Rproj
+.DS_Store
+.venv/
+.condaenv/
+.ipynb_checkpoints/
+
 **/*.quarto_ipynb

@@ -1,6 +1,0 @@
----
-title: "Catatan #1"
-date: 2025-10-14
----
-
-Posting catatan disini.
