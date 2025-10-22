@@ -199,13 +199,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#hasil-penugasan-debug-mode" id="toc-hasil-penugasan-debug-mode" class="nav-link active" data-scroll-target="#hasil-penugasan-debug-mode"><span class="header-section-number">1</span> Hasil Penugasan — Debug mode</a></li>
-  <li><a href="#tunjukkan-working-dir-isi" id="toc-tunjukkan-working-dir-isi" class="nav-link" data-scroll-target="#tunjukkan-working-dir-isi"><span class="header-section-number">2</span> tunjukkan working dir &amp; isi</a>
-  <ul class="collapse">
-  <li><a href="#hal-hal-kecil-yang-wajib-diperhatikan-saat-paste" id="toc-hal-hal-kecil-yang-wajib-diperhatikan-saat-paste" class="nav-link" data-scroll-target="#hal-hal-kecil-yang-wajib-diperhatikan-saat-paste"><span class="header-section-number">2.0.1</span> Hal-hal kecil yang wajib diperhatikan saat paste</a></li>
-  <li><a href="#jika-masih-error-setelah-ini" id="toc-jika-masih-error-setelah-ini" class="nav-link" data-scroll-target="#jika-masih-error-setelah-ini"><span class="header-section-number">2.0.2</span> Jika masih error setelah ini</a></li>
-  </ul></li>
-  <li><a href="#laporan-submisi-tugas-uts-kelas-01" id="toc-laporan-submisi-tugas-uts-kelas-01" class="nav-link" data-scroll-target="#laporan-submisi-tugas-uts-kelas-01"><span class="header-section-number">3</span> Laporan Submisi Tugas UTS Kelas 01</a></li>
+  <li><a href="#laporan-submisi-tugas-uts-kelas-01" id="toc-laporan-submisi-tugas-uts-kelas-01" class="nav-link active" data-scroll-target="#laporan-submisi-tugas-uts-kelas-01"><span class="header-section-number">1</span> Laporan Submisi Tugas UTS Kelas 01</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/valorizelearning/framework/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -237,73 +231,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="hasil-penugasan-debug-mode" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Hasil Penugasan — Debug mode</h1>
-<p>Blok berikut akan mencoba menjalankan <code>penugasan_penilaian.py</code> (atau import + panggil fungsi), menampilkan hasil bila berhasil, dan menampilkan traceback serta daftar file bila gagal.</p>
-<p>import os import sys import traceback from IPython.display import display, HTML import subprocess import shlex</p>
-<p>def show_html(s): display(HTML(s))</p>
-</section>
-<section id="tunjukkan-working-dir-isi" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> tunjukkan working dir &amp; isi</h1>
-cwd = os.getcwd() files = os.listdir(cwd) show_html(f”
-<p>
-<b>Working dir:</b> {cwd}
-</p>
-“) show_html(”
-<p>
-<b>Files in working dir:</b>
-</p>
-<pre>{}</pre>
-<p>“.format(”\n”.join(files)))</p>
-<p>OUT_XLSX = “hasil_penugasan_random.xlsx” PY_SCRIPT = “penugasan_penilaian.py” DATA_XLSX = “data_mahasiswa.xlsx”</p>
-<p>try: # 1) cek file script ada if not os.path.exists(PY_SCRIPT): raise FileNotFoundError(f”‘{PY_SCRIPT}’ not found in working dir ({cwd}). Files: {files}“)</p>
-<pre><code># 2) jalankan script sebagai subprocess (lebih aman daripada import karena import caching)
-cmd = f"python {shlex.quote(PY_SCRIPT)} {shlex.quote(DATA_XLSX)} {shlex.quote(OUT_XLSX)} 42"
-show_html(f"&lt;p&gt;&lt;b&gt;Running command:&lt;/b&gt; &lt;code&gt;{cmd}&lt;/code&gt;&lt;/p&gt;")
-
-proc = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=120)
-show_html("&lt;h4&gt;Stdout&lt;/h4&gt;&lt;pre&gt;{}&lt;/pre&gt;".format(proc.stdout[:10000]))
-show_html("&lt;h4&gt;Stderr&lt;/h4&gt;&lt;pre&gt;{}&lt;/pre&gt;".format(proc.stderr[:10000]))
-if proc.returncode != 0:
-    raise RuntimeError(f"Script exited with code {proc.returncode}. See stderr above.")
-
-# 3) cek apakah output file dibuat
-if os.path.exists(OUT_XLSX):
-    import pandas as pd
-    df = pd.read_excel(OUT_XLSX)
-    show_html(f"&lt;h3&gt;✅ Script sukses — {OUT_XLSX} dibuat (baris: {len(df)})&lt;/h3&gt;")
-    display(df.head(20))
-    show_html(f'&lt;p&gt;&lt;a href="{OUT_XLSX}" target="_blank"&gt;⬇️ Download {OUT_XLSX}&lt;/a&gt;&lt;/p&gt;')
-else:
-    raise FileNotFoundError(f"Script selesai tapi output '{OUT_XLSX}' tidak ditemukan in {cwd}.")</code></pre>
-except Exception: tb = traceback.format_exc() show_html(“
-<h3 style="color:firebrick;" class="anchored" data-anchor-id="tunjukkan-working-dir-isi">
-⚠️ Terjadi error saat menjalankan penugasan
-</h3>
-“) show_html(f”
-<pre style="background:#f8f8f8;padding:10px;border-radius:6px">{tb}</pre>
-<p>“)</p>
-<section id="hal-hal-kecil-yang-wajib-diperhatikan-saat-paste" class="level3" data-number="2.0.1">
-<h3 data-number="2.0.1" class="anchored" data-anchor-id="hal-hal-kecil-yang-wajib-diperhatikan-saat-paste"><span class="header-section-number">2.0.1</span> Hal-hal kecil yang wajib diperhatikan saat paste</h3>
-<ol type="1">
-<li><strong>Jangan</strong> copy dari tampilan yang mengubah tanda kutip; pastikan editor menyimpan karakter <code>"</code> biasa. Gunakan VSCode / Notepad++ / Notepad.<br>
-</li>
-<li>Simpan file sebagai <strong>UTF-8</strong> tanpa BOM.<br>
-</li>
-<li>Hapus/rename <code>index.md</code> bila ada—pastikan hanya <code>index.qmd</code> yang dipakai dan <code>_quarto.yml</code> menunjuk yang benar.<br>
-</li>
-<li>Pastikan <code>penugasan_penilaian.py</code> dan <code>data_mahasiswa.xlsx</code> ada di <strong>root proyek</strong> (daftar file akan muncul di halaman debug).</li>
-</ol>
-</section>
-<section id="jika-masih-error-setelah-ini" class="level3" data-number="2.0.2">
-<h3 data-number="2.0.2" class="anchored" data-anchor-id="jika-masih-error-setelah-ini"><span class="header-section-number">2.0.2</span> Jika masih error setelah ini</h3>
-<ol type="1">
-<li>Jalankan <strong>lokal</strong> dulu di terminal supaya kita lihat stdout/stderr langsung: ```bash python penugasan_penilaian.py data_mahasiswa.xlsx hasil_penugasan_random.xlsx 42</li>
-</ol>
-</section>
-</section>
-<section id="laporan-submisi-tugas-uts-kelas-01" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Laporan Submisi Tugas UTS Kelas 01</h1>
+<section id="laporan-submisi-tugas-uts-kelas-01" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Laporan Submisi Tugas UTS Kelas 01</h1>
 <table class="caption-top table">
 <thead>
 <tr class="header">
