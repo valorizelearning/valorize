@@ -1,37 +1,24 @@
-```{python}
-import pandas as pd
-import random
-from IPython.display import display, HTML
+# Introduction {.unnumbered}
 
-# Nama file input dan output
-FILE_INPUT = "data_mahasiswa.xlsx"   # ganti sesuai nama file kamu
-FILE_OUTPUT = "hasil_penugasan_random.xlsx"
+::: {.callout-note appearance="simple"}
+Kata "Valorize" berasal dari bahasa Prancis valoriser dan akar Latin valor (nilai). Dalam konteks pendidikan, Valorize berarti mengakui, mengembangkan, dan merealisasikan potensi yang ada menjadi nilai nyata yang dapat diukur.
+:::
 
-# Baca file Excel
-try:
-    df = pd.read_excel(FILE_INPUT)
-except FileNotFoundError:
-    display(HTML(f"<p style='color:red;'>❌ File '{FILE_INPUT}' tidak ditemukan. Pastikan file ada di folder yang sama.</p>"))
-    raise
+## VALORIZE LEARNING: Where Value is Realized!
 
-# Pastikan kolom penting tersedia
-required_cols = {"NIM", "NAMA"}
-if not required_cols.issubset(df.columns):
-    raise ValueError(f"File Excel harus memiliki kolom: {', '.join(required_cols)}")
+Kerangka pembelajaran transformatif yang mengintegrasikan Value (nilai), Collaboration (kolaborasi), Artificial Intelligence (Kecerdasan Buatan), dan Personalized Learning (Pembelajaran yang dipersonalisasi) untuk menciptakan pembelajaran yang bermakna (Value Co-Creation) dalam konteks pendidikan berorientasi nilai (Value Oriented Education).
 
-# Siapkan hasil baru
-hasil = df.copy()
-hasil["NIM_PENILAI_1"] = ""
-hasil["NAMA_PENILAI_1"] = ""
-hasil["NIM_PENILAI_2"] = ""
-hasil["NAMA_PENILAI_2"] = ""
+### VISI
 
-# Daftar mahasiswa
-mahasiswa = df[["NIM", "NAMA"]].to_dict(orient="records")
+Menjadi kerangka kerja pembelajaran transformatif yang mengakui, mengembangkan, dan merealisasikan potensi peserta didik menjadi kompetensi profesional yang autentik.
 
-# Random assignment
-random.seed(42)
-for idx, mhs in enumerate(mahasiswa):
-    # kandidat penilai = semua mahasiswa kecuali dirinya sendiri
-    kandidat = [x for x in mahasiswa if x["NIM"] != mhs["NIM"]]
-    peni
+### MISI
+
+Memfasilitasi transformasi peserta didik dari konsumen pengetahuan pasif menjadi produsen nilai aktif melalui: Kolaborasi bermakna dalam Knowledge Marketplace berbasis peer production Pembelajaran berbasis proyek autentik yang relevan dengan kebutuhan profesional Pengembangan identitas profesional yang kuat dan adaptif.
+
+Komponen inti framework:
+
+1. VALue (Nilai-nilai luhur sebagai fondasi)
+2. Organized through CollaRation (Pembelajaran kolaboratif terorganisir)
+3. Intelligence (Kecerdasan Buatan sebagai enabler)
+4. Zones of PersonalIzed & Zenith Education (Zona pembelajaran personal menuju puncak potensi)

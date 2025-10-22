@@ -34,4 +34,18 @@ random.seed(42)
 for idx, mhs in enumerate(mahasiswa):
     # kandidat penilai = semua mahasiswa kecuali dirinya sendiri
     kandidat = [x for x in mahasiswa if x["NIM"] != mhs["NIM"]]
-    peni
+    penilai = random.sample(kandidat, 2)
+
+    hasil.at[idx, "NIM_PENILAI_1"] = penilai[0]["NIM"]
+    hasil.at[idx, "NAMA_PENILAI_1"] = penilai[0]["NAMA"]
+    hasil.at[idx, "NIM_PENILAI_2"] = penilai[1]["NIM"]
+    hasil.at[idx, "NAMA_PENILAI_2"] = penilai[1]["NAMA"]
+
+# Simpan hasil ke Excel
+hasil.to_excel(FILE_OUTPUT, index=False)
+
+# Tampilkan ringkasan di halaman
+display(HTML("<h3>✅ Penugasan acak berhasil dibuat</h3>"))
+display(HTML(f"<p>File hasil disimpan sebagai: <b>{FILE_OUTPUT}</b></p>"))
+display(hasil.head(10))  # tampilkan 10 baris pertama
+```
