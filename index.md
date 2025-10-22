@@ -23,3 +23,45 @@ Komponen inti framework:
 3. Intelligence (Kecerdasan Buatan sebagai enabler)
 4. Zones of PersonalIzed & Zenith Education (Zona pembelajaran personal menuju puncak potensi)
 
+```{python}
+import pandas as pd
+import random
+
+def buat_penugasan_tanpa_timball_balik(file_input="data_mahasiswa.xlsx",
+                                        kolom_nama="Nama",
+                                        file_output="hasil_penilaian_tanpa_timball_balik.xlsx",
+                                        seed=None,
+                                        max_attempts=1000):
+    df = pd.read_excel(file_input)
+    nama_asli = df[kolom_nama].astype(str).tolist()
+    n = len(nama_asli)
+    if n < 3:
+        raise ValueError("Minimal 3 mahasiswa diperlukan.")
+    if seed is not None:
+        random.seed(seed)
+
+    attempt = 0
+    while attempt < max_attempts:
+        attempt += 1
+        nama = nama_asli[:]
+        random.shuffle(nama)
+        edges = []
+        hasil = []
+        for i, penilai in enumerate(nama):
+            din1 = nama[(i + 1) % n]
+            din2 = nama[(i + 2) % n]
+            if din1 == penilai or din2 == penilai:
+                break
+            hasil.append({"Penilai": penilai, "Dinilai_1": din1, "Dinilai_2": din2})
+            edges.append((penilai, din1))
+            edges.append((penilai, din2))
+        else:
+            edge_set = set(edges)
+            has_reciprocal = any((b, a) in edge_set for a, b in edges)
+            if not has_reciprocal:
+                hasil_df = pd.DataFrame(hasil)
+                hasil_df.to_excel(file_output, index=False)
+                hasil_df.head()  # tampilkan sebagian hasil di web
+                break
+    else:
+        raise RuntimeError("Gagal membuat penugasan valid setelah banyak percobaan.")
