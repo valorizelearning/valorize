@@ -1,0 +1,77 @@
+---
+title: "Hasil Penugasan (debug-friendly)"
+format:
+  html:
+    toc: true
+execute:
+  echo: false
+  warning: false
+  error: false
+---
+
+# Hasil Penugasan — Debug mode
+
+Blok berikut akan mencoba menjalankan `penugasan_penilaian.py` (atau import + panggil fungsi),
+menampilkan hasil bila berhasil, dan menampilkan traceback serta daftar file bila gagal.
+
+```{python}
+import os
+import sys
+import traceback
+from IPython.display import display, HTML
+import subprocess
+import shlex
+
+def show_html(s):
+    display(HTML(s))
+
+# tunjukkan working dir & isi
+cwd = os.getcwd()
+files = os.listdir(cwd)
+show_html(f"<p><b>Working dir:</b> {cwd}</p>")
+show_html("<p><b>Files in working dir:</b></p><pre>{}</pre>".format("\\n".join(files)))
+
+OUT_XLSX = "hasil_penugasan_random.xlsx"
+PY_SCRIPT = "penugasan_penilaian.py"
+DATA_XLSX = "data_mahasiswa.xlsx"
+
+try:
+    # 1) cek file script ada
+    if not os.path.exists(PY_SCRIPT):
+        raise FileNotFoundError(f"'{PY_SCRIPT}' not found in working dir ({cwd}). Files: {files}")
+
+    # 2) jalankan script sebagai subprocess (lebih aman daripada import karena import caching)
+    cmd = f"python {shlex.quote(PY_SCRIPT)} {shlex.quote(DATA_XLSX)} {shlex.quote(OUT_XLSX)} 42"
+    show_html(f"<p><b>Running command:</b> <code>{cmd}</code></p>")
+
+    proc = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=120)
+    show_html("<h4>Stdout</h4><pre>{}</pre>".format(proc.stdout[:10000]))
+    show_html("<h4>Stderr</h4><pre>{}</pre>".format(proc.stderr[:10000]))
+    if proc.returncode != 0:
+        raise RuntimeError(f"Script exited with code {proc.returncode}. See stderr above.")
+
+    # 3) cek apakah output file dibuat
+    if os.path.exists(OUT_XLSX):
+        import pandas as pd
+        df = pd.read_excel(OUT_XLSX)
+        show_html(f"<h3>✅ Script sukses — {OUT_XLSX} dibuat (baris: {len(df)})</h3>")
+        display(df.head(20))
+        show_html(f'<p><a href="{OUT_XLSX}" target="_blank">⬇️ Download {OUT_XLSX}</a></p>')
+    else:
+        raise FileNotFoundError(f"Script selesai tapi output '{OUT_XLSX}' tidak ditemukan in {cwd}.")
+
+except Exception:
+    tb = traceback.format_exc()
+    show_html("<h3 style='color:firebrick;'>⚠️ Terjadi error saat menjalankan penugasan</h3>")
+    show_html(f"<pre style='background:#f8f8f8;padding:10px;border-radius:6px'>{tb}</pre>")
+
+### Hal-hal kecil yang wajib diperhatikan saat paste
+1. **Jangan** copy dari tampilan yang mengubah tanda kutip; pastikan editor menyimpan karakter `"` biasa. Gunakan VSCode / Notepad++ / Notepad.  
+2. Simpan file sebagai **UTF-8** tanpa BOM.  
+3. Hapus/rename `index.md` bila ada—pastikan hanya `index.qmd` yang dipakai dan `_quarto.yml` menunjuk yang benar.  
+4. Pastikan `penugasan_penilaian.py` dan `data_mahasiswa.xlsx` ada di **root proyek** (daftar file akan muncul di halaman debug).  
+
+### Jika masih error setelah ini
+1. Jalankan **lokal** dulu di terminal supaya kita lihat stdout/stderr langsung:
+   ```bash
+   python penugasan_penilaian.py data_mahasiswa.xlsx hasil_penugasan_random.xlsx 42

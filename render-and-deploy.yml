@@ -1,0 +1,58 @@
+name: Build Quarto site (debug) and deploy
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Show repo files
+        run: ls -la
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl
+
+      - name: Run penugasan script (with debug)
+        run: |
+          echo "PWD: $(pwd)"
+          ls -la
+          python penugasan_penilaian.py data_mahasiswa.xlsx hasil_penugasan_random.xlsx 42
+        continue-on-error: false
+
+      - name: Show generated files
+        run: ls -la
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Render Quarto site
+        uses: quarto-dev/quarto-action@v2
+        with:
+          command: render
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site

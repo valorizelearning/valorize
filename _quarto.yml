@@ -9,9 +9,10 @@ book:
   repo-branch: master
   repo-actions: [issue]
   chapters:
-    - index.md
+    - index.qmd
     - part: Curriculum
       chapters:
+        - penugasan_penilaian.py
         - valorize_introduction.ipynb
         - altair_marks_encoding.ipynb
         - altair_data_transformation.ipynb
