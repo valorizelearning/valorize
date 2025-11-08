@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>8&nbsp; Altair Debugging Guide – VALORIZE</title>
+<title>4&nbsp; Altair Debugging Guide – VALORIZE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./altair_cartographic.html" rel="prev">
+<link href="./altair_data_transformation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -120,7 +120,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./altair_debugging.html">Support</a></li><li class="breadcrumb-item"><a href="./altair_debugging.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Altair Debugging Guide</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./altair_debugging.html">Support</a></li><li class="breadcrumb-item"><a href="./altair_debugging.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Altair Debugging Guide</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -200,30 +200,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Transformation</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./altair_scales_axes_legends.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scales, Axes, and Legends</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./altair_view_composition.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Multi-View Composition</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./altair_interaction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Interaction</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./altair_cartographic.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Cartographic Visualization</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -238,7 +214,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./altair_debugging.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Altair Debugging Guide</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Altair Debugging Guide</span></span></a>
   </div>
 </li>
       </ul>
@@ -253,32 +229,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#installation" id="toc-installation" class="nav-link active" data-scroll-target="#installation"><span class="header-section-number">8.1</span> Installation</a>
+  <li><a href="#installation" id="toc-installation" class="nav-link active" data-scroll-target="#installation"><span class="header-section-number">4.1</span> Installation</a>
   <ul class="collapse">
-  <li><a href="#make-sure-you-are-using-the-latest-version-of-altair" id="toc-make-sure-you-are-using-the-latest-version-of-altair" class="nav-link" data-scroll-target="#make-sure-you-are-using-the-latest-version-of-altair"><span class="header-section-number">8.1.1</span> Make sure you are Using the Latest Version of Altair</a></li>
-  <li><a href="#try-making-a-chart" id="toc-try-making-a-chart" class="nav-link" data-scroll-target="#try-making-a-chart"><span class="header-section-number">8.1.2</span> Try Making a Chart</a></li>
-  <li><a href="#special-setup-for-the-jupyter-notebook" id="toc-special-setup-for-the-jupyter-notebook" class="nav-link" data-scroll-target="#special-setup-for-the-jupyter-notebook"><span class="header-section-number">8.1.3</span> Special Setup for the Jupyter Notebook</a></li>
+  <li><a href="#make-sure-you-are-using-the-latest-version-of-altair" id="toc-make-sure-you-are-using-the-latest-version-of-altair" class="nav-link" data-scroll-target="#make-sure-you-are-using-the-latest-version-of-altair"><span class="header-section-number">4.1.1</span> Make sure you are Using the Latest Version of Altair</a></li>
+  <li><a href="#try-making-a-chart" id="toc-try-making-a-chart" class="nav-link" data-scroll-target="#try-making-a-chart"><span class="header-section-number">4.1.2</span> Try Making a Chart</a></li>
+  <li><a href="#special-setup-for-the-jupyter-notebook" id="toc-special-setup-for-the-jupyter-notebook" class="nav-link" data-scroll-target="#special-setup-for-the-jupyter-notebook"><span class="header-section-number">4.1.3</span> Special Setup for the Jupyter Notebook</a></li>
   </ul></li>
-  <li><a href="#display-troubleshooting" id="toc-display-troubleshooting" class="nav-link" data-scroll-target="#display-troubleshooting"><span class="header-section-number">8.2</span> Display Troubleshooting</a>
+  <li><a href="#display-troubleshooting" id="toc-display-troubleshooting" class="nav-link" data-scroll-target="#display-troubleshooting"><span class="header-section-number">4.2</span> Display Troubleshooting</a>
   <ul class="collapse">
-  <li><a href="#non-existent-fields" id="toc-non-existent-fields" class="nav-link" data-scroll-target="#non-existent-fields"><span class="header-section-number">8.2.1</span> Non Existent Fields</a></li>
+  <li><a href="#non-existent-fields" id="toc-non-existent-fields" class="nav-link" data-scroll-target="#non-existent-fields"><span class="header-section-number">4.2.1</span> Non Existent Fields</a></li>
   </ul></li>
-  <li><a href="#invalid-specifications" id="toc-invalid-specifications" class="nav-link" data-scroll-target="#invalid-specifications"><span class="header-section-number">8.3</span> Invalid Specifications</a>
+  <li><a href="#invalid-specifications" id="toc-invalid-specifications" class="nav-link" data-scroll-target="#invalid-specifications"><span class="header-section-number">4.3</span> Invalid Specifications</a>
   <ul class="collapse">
-  <li><a href="#invalid-properties" id="toc-invalid-properties" class="nav-link" data-scroll-target="#invalid-properties"><span class="header-section-number">8.3.1</span> Invalid Properties</a></li>
+  <li><a href="#invalid-properties" id="toc-invalid-properties" class="nav-link" data-scroll-target="#invalid-properties"><span class="header-section-number">4.3.1</span> Invalid Properties</a></li>
   </ul></li>
-  <li><a href="#properties-are-being-ignored" id="toc-properties-are-being-ignored" class="nav-link" data-scroll-target="#properties-are-being-ignored"><span class="header-section-number">8.4</span> Properties are Being Ignored</a></li>
-  <li><a href="#asking-for-help" id="toc-asking-for-help" class="nav-link" data-scroll-target="#asking-for-help"><span class="header-section-number">8.5</span> Asking for Help</a></li>
-  <li><a href="#reporting-issues" id="toc-reporting-issues" class="nav-link" data-scroll-target="#reporting-issues"><span class="header-section-number">8.6</span> Reporting Issues</a></li>
+  <li><a href="#properties-are-being-ignored" id="toc-properties-are-being-ignored" class="nav-link" data-scroll-target="#properties-are-being-ignored"><span class="header-section-number">4.4</span> Properties are Being Ignored</a></li>
+  <li><a href="#asking-for-help" id="toc-asking-for-help" class="nav-link" data-scroll-target="#asking-for-help"><span class="header-section-number">4.5</span> Asking for Help</a></li>
+  <li><a href="#reporting-issues" id="toc-reporting-issues" class="nav-link" data-scroll-target="#reporting-issues"><span class="header-section-number">4.6</span> Reporting Issues</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/uwdata/visualization-curriculum/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./altair_debugging.html">Support</a></li><li class="breadcrumb-item"><a href="./altair_debugging.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Altair Debugging Guide</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./altair_debugging.html">Support</a></li><li class="breadcrumb-item"><a href="./altair_debugging.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Altair Debugging Guide</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Altair Debugging Guide</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Altair Debugging Guide</span></h1>
 </div>
 
 
@@ -307,8 +283,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>In addition to this notebook, you might find the <a href="https://altair-viz.github.io/user_guide/faq.html">Frequently Asked Questions</a> and <a href="https://altair-viz.github.io/user_guide/troubleshooting.html">Display Troubleshooting</a> guides helpful.</p>
 <p><em>This notebook is part of the <a href="https://github.com/uwdata/visualization-curriculum">data visualization curriculum</a>.</em></p>
-<section id="installation" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="installation"><span class="header-section-number">8.1</span> Installation</h2>
+<section id="installation" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="installation"><span class="header-section-number">4.1</span> Installation</h2>
 <p>These instructions follow <a href="https://altair-viz.github.io/getting_started/installation.html">the Altair documentation</a> but focus on some specifics for this series of notebooks.</p>
 <p>In every notebook, we will import the <a href="https://github.com/altair-viz/altair">Altair</a> and <a href="https://github.com/altair-viz/vega_datasets">Vega Datasets</a> packages. If you are running this notebook on <a href="https://colab.research.google.com">Colab</a>, Altair and Vega Datasets should be preinstalled and ready to go. The notebooks in this series are designed for Colab but should also work in Jupyter Lab or the Jupyter Notebook (the notebook requires a bit more setup <a href="#Special-Setup-for-the-Jupyter-Notebook">described below</a>) but additional packages are required.</p>
 <p>If you are running in Jupyter Lab or Jupyter Notebooks, you have to install the necessary packages by running the following command in your terminal.</p>
@@ -361,8 +337,8 @@ You should consider upgrading via the '/Users/jjallaire/quarto/demo/visualizatio
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> vega_datasets <span class="im">import</span> data</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<section id="make-sure-you-are-using-the-latest-version-of-altair" class="level3" data-number="8.1.1">
-<h3 data-number="8.1.1" class="anchored" data-anchor-id="make-sure-you-are-using-the-latest-version-of-altair"><span class="header-section-number">8.1.1</span> Make sure you are Using the Latest Version of Altair</h3>
+<section id="make-sure-you-are-using-the-latest-version-of-altair" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="make-sure-you-are-using-the-latest-version-of-altair"><span class="header-section-number">4.1.1</span> Make sure you are Using the Latest Version of Altair</h3>
 <p>If you are running into issues with Altair, first make sure that you are running the latest version. To check the version of Altair that you have installed, run the cell below.</p>
 <div id="cell-8" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>alt.__version__</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -382,8 +358,8 @@ You should consider upgrading via the '/Users/jjallaire/quarto/demo/visualizatio
 <p>If you are not running the latest version, you can update it with <code>pip</code>. You can update Altair and Vega Datasets by running this command in your terminal.</p>
 <pre><code>pip install -U altair vega_datasets</code></pre>
 </section>
-<section id="try-making-a-chart" class="level3" data-number="8.1.2">
-<h3 data-number="8.1.2" class="anchored" data-anchor-id="try-making-a-chart"><span class="header-section-number">8.1.2</span> Try Making a Chart</h3>
+<section id="try-making-a-chart" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="try-making-a-chart"><span class="header-section-number">4.1.2</span> Try Making a Chart</h3>
 <p>Now you can create an Altair chart.</p>
 <div id="cell-14" class="cell" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>cars <span class="op">=</span> data.cars()</span>
@@ -447,8 +423,8 @@ You should consider upgrading via the '/Users/jjallaire/quarto/demo/visualizatio
 </div>
 </div>
 </section>
-<section id="special-setup-for-the-jupyter-notebook" class="level3" data-number="8.1.3">
-<h3 data-number="8.1.3" class="anchored" data-anchor-id="special-setup-for-the-jupyter-notebook"><span class="header-section-number">8.1.3</span> Special Setup for the Jupyter Notebook</h3>
+<section id="special-setup-for-the-jupyter-notebook" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="special-setup-for-the-jupyter-notebook"><span class="header-section-number">4.1.3</span> Special Setup for the Jupyter Notebook</h3>
 <p>If you are running in Jupyter Lab, Jupyter Notebook, or Colab (and have a working Internet connection) you should be seeing a chart. If you are running in another environment (or offline), you will need to tell Altair to use a different renderer;</p>
 <p>To activate a different renderer in a notebook cell:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># to run in nteract, VSCode, or offline in JupyterLab</span></span>
@@ -461,11 +437,11 @@ You should consider upgrading via the '/Users/jjallaire/quarto/demo/visualizatio
 <p>These instruction follow <a href="https://altair-viz.github.io/getting_started/installation.html#installation-notebook">the instructions on the Altair website</a>.</p>
 </section>
 </section>
-<section id="display-troubleshooting" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="display-troubleshooting"><span class="header-section-number">8.2</span> Display Troubleshooting</h2>
+<section id="display-troubleshooting" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="display-troubleshooting"><span class="header-section-number">4.2</span> Display Troubleshooting</h2>
 <p>If you are having issues with seeing a chart, make sure your setup is correct by following the <a href="#installation">debugging instruction above</a>. If you are still having issues, follow the <a href="https://altair-viz.github.io/user_guide/troubleshooting.html">instruction about debugging display issues in the Altair documentation</a>.</p>
-<section id="non-existent-fields" class="level3" data-number="8.2.1">
-<h3 data-number="8.2.1" class="anchored" data-anchor-id="non-existent-fields"><span class="header-section-number">8.2.1</span> Non Existent Fields</h3>
+<section id="non-existent-fields" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="non-existent-fields"><span class="header-section-number">4.2.1</span> Non Existent Fields</h3>
 <p>A common error is <a href="https://altair-viz.github.io/user_guide/troubleshooting.html#plot-displays-but-the-content-is-empty">accidentally using a field that does not exit</a>.</p>
 <div id="cell-19" class="cell" data-execution_count="7">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -570,11 +546,11 @@ You should consider upgrading via the '/Users/jjallaire/quarto/demo/visualizatio
 </div>
 </section>
 </section>
-<section id="invalid-specifications" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="invalid-specifications"><span class="header-section-number">8.3</span> Invalid Specifications</h2>
+<section id="invalid-specifications" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="invalid-specifications"><span class="header-section-number">4.3</span> Invalid Specifications</h2>
 <p>Another common issue is creating an invalid specification and getting an error.</p>
-<section id="invalid-properties" class="level3" data-number="8.3.1">
-<h3 data-number="8.3.1" class="anchored" data-anchor-id="invalid-properties"><span class="header-section-number">8.3.1</span> Invalid Properties</h3>
+<section id="invalid-properties" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="invalid-properties"><span class="header-section-number">4.3.1</span> Invalid Properties</h3>
 <p>Altair might show an <code>SchemaValidationError</code> or <code>ValueError</code>. Read the error message carefully. Usually it will tell you what is going wrong.</p>
 <p>For example, if you forget the mark type, you will see this <code>SchemaValidationError</code>.</p>
 <div id="cell-25" class="cell" data-execution_count="9">
@@ -628,8 +604,8 @@ You should consider upgrading via the '/Users/jjallaire/quarto/demo/visualizatio
 </div>
 </section>
 </section>
-<section id="properties-are-being-ignored" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="properties-are-being-ignored"><span class="header-section-number">8.4</span> Properties are Being Ignored</h2>
+<section id="properties-are-being-ignored" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="properties-are-being-ignored"><span class="header-section-number">4.4</span> Properties are Being Ignored</h2>
 <p>Altair might ignore a property that you specified. In the chart below, we are using a <code>text</code> channel, which is only compatible with <code>mark_text</code>. You do not see an error or a warning about this in the notebook. However, the underlying Vega-Lite library will show a warning in the browser console. Press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>I</kbd> on Mac or <kbd>Alt</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd> on Windows and Linux to open the developer tools and click on the <code>Console</code> tab. When you run the example in the cell below, you will see a the following warning.</p>
 <pre><code>WARN text dropped as it is incompatible with "bar".</code></pre>
 <div id="cell-29" class="cell" data-execution_count="11">
@@ -693,12 +669,12 @@ You should consider upgrading via the '/Users/jjallaire/quarto/demo/visualizatio
 <p>If you find yourself debugging issues related to Vega-Lite, you can open the chart in the <a href="https://vega.github.io/editor/">Vega Editor</a> either by clicking on the “Open in Vega Editor” link at the bottom of the chart or in the action menu (click to open) at the top right of a chart. The Vega Editor provides additional debugging but you will be writing Vega-Lite JSON instead of Altair in Python.</p>
 <p><strong>Note</strong>: The Vega Editor may be using a newer version of Vega-Lite and so the behavior may vary.</p>
 </section>
-<section id="asking-for-help" class="level2" data-number="8.5">
-<h2 data-number="8.5" class="anchored" data-anchor-id="asking-for-help"><span class="header-section-number">8.5</span> Asking for Help</h2>
+<section id="asking-for-help" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="asking-for-help"><span class="header-section-number">4.5</span> Asking for Help</h2>
 <p>If you find a problem with Altair and get stuck, you can ask a question on Stack Overflow. Ask your question with the <code>altair</code> and <code>vega-lite</code> tags. You can find a list of questions people have asked before <a href="https://stackoverflow.com/questions/tagged/altair">here</a>.</p>
 </section>
-<section id="reporting-issues" class="level2" data-number="8.6">
-<h2 data-number="8.6" class="anchored" data-anchor-id="reporting-issues"><span class="header-section-number">8.6</span> Reporting Issues</h2>
+<section id="reporting-issues" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="reporting-issues"><span class="header-section-number">4.6</span> Reporting Issues</h2>
 <p>If you find a problem with Altair and believe it is a bug, please <a href="https://github.com/altair-viz/altair/issues/new">create an issue in the Altair GitHub repo</a> with a description of your problem. If you believe the issue is related to the underlying Vega-Lite library, please <a href="https://github.com/vega/vega-lite/issues/new">create an issue in the Vega-Lite GitHub repo</a>.</p>
 
 
@@ -1107,8 +1083,8 @@ You should consider upgrading via the '/Users/jjallaire/quarto/demo/visualizatio
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./altair_cartographic.html" class="pagination-link" aria-label="Cartographic Visualization">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Cartographic Visualization</span></span>
+      <a href="./altair_data_transformation.html" class="pagination-link" aria-label="Data Transformation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Transformation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

@@ -16,10 +16,6 @@ book:
         - valorize_introduction.ipynb
         - altair_marks_encoding.ipynb
         - altair_data_transformation.ipynb
-        - altair_scales_axes_legends.ipynb
-        - altair_view_composition.ipynb
-        - altair_interaction.ipynb
-        - altair_cartographic.ipynb
     - part: Support
       chapters:
         - altair_debugging.ipynb
