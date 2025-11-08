@@ -15,7 +15,6 @@ book:
       chapters:
         - valorize_introduction.ipynb
         - valorize_content1.ipynb
-        - valorize_content2.ipynb
     - part: Support
       chapters:
         - valorize_support.ipynb
