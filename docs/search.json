@@ -4,27 +4,7 @@
     "href": "index.html",
     "title": "VALORIZE",
     "section": "",
-    "text": "Introduction\nA data visualization curriculum of interactive notebooks, using Vega-Lite and Altair. This book contains a series of Python-based Jupyter notebooks, a corresponding set of JavaScript notebooks are available online on Observable.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#getting-started",
-    "href": "index.html#getting-started",
-    "title": "VALORIZE",
-    "section": "Getting Started",
-    "text": "Getting Started\nThe visualization curriculum can be used either online or on your local computer. You can view and interact with the plots directly in this Jupyter Book. If you want to modify the code, you have a few different options:\n\nTo read JavaScript notebooks online using Observable, navigate to the “Observable” page above and click the corresponding notebook.\nTo read Python notebooks online using Colab, click the corresponding section in this book, hover over the little rocket ship at the top of the page, and select “Colab” from the menu.\nTo read Python notebooks locally, follow the instructions below.\n\n\nLocal Installation\n\nInstall Altair and a notebook environment. The most recent versions of these notebooks use Altair version 4.\nDownload the notebooks from the releases page. Typically you will want to use the most recent release. (If you wish to use notebooks for Altair version 3, download the Altair v3.2 release.)\nOpen the notebooks in your local notebook environment. For example, if you have JupyterLab installed (v1.0 or higher is required), run jupyter lab within the directory containing the notebooks.\n\nDepending on your programming environment (and whether or not you have a live internet connection), you may want to specify a particular renderer for Altair.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#credits",
-    "href": "index.html#credits",
-    "title": "VALORIZE",
-    "section": "Credits",
-    "text": "Credits\nDeveloped at the University of Washington by Jeffrey Heer, Dominik Moritz, Jake VanderPlas, and Brock Craft. Thanks to the UW Interactive Data Lab and Arvind Satyanarayan for their valuable input and feedback! Thanks also to the students of UW CSE512 Spring 2019, the first group to use these notebooks within an integrated course curriculum.",
+    "text": "Meliana Christianti Johan | NIM 33224001\nPromotor: Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.\nCo-Promotor: Ir. I Gusti Bagus Baskara Nugraha, S.T., M.T., Ph.D.\nJudul Disertasi:\nKerangka Kerja Manajemen Pengetahuan Kolaboratif Berbasis Rekayasa Cerdas untuk Pendidikan Tinggi Berorientasi Nilai\nCollaborative Knowledge Management Framework Based on Smart Engineering for Value-Oriented Higher Education\n\nIntroduction\nValorize Learning Framework Klik Disini\n\n\n\n\n\n\nKata “Valorize” berasal dari bahasa Prancis valoriser dan akar Latin valor (nilai). Dalam konteks pendidikan, Valorize berarti mengakui, mengembangkan, dan merealisasikan potensi yang ada menjadi nilai nyata yang dapat diukur.",
     "crumbs": [
       "Introduction"
     ]
@@ -34,18 +14,18 @@
     "href": "valorize_introduction.html",
     "title": "1  Introduction to Valorize",
     "section": "",
-    "text": "1.1 Imports\nValorize is a declarative statistical visualization library for Python. Altair offers a powerful and concise visualization grammar for quickly building a wide range of statistical graphics.\nBy declarative, we mean that you can provide a high-level specification of what you want the visualization to include, in terms of data, graphical marks, and encoding channels, rather than having to specify how to implement the visualization in terms of for-loops, low-level drawing commands, etc. The key idea is that you declare links between data fields and visual encoding channels, such as the x-axis, y-axis, color, etc. The rest of the plot details are handled automatically. Building on this declarative plotting idea, a surprising range of simple to sophisticated visualizations can be created using a concise grammar.\nAltair is based on Vega-Lite, a high-level grammar of interactive graphics. Altair provides a friendly Python API (Application Programming Interface) that generates Vega-Lite specifications in JSON (JavaScript Object Notation) format. Environments such as Jupyter Notebooks, JupyterLab, and Colab can then take this specification and render it directly in the web browser. To learn more about the motivation and basic concepts behind Altair and Vega-Lite, watch the Vega-Lite presentation video from OpenVisConf 2017.\nThis notebook will guide you through the basic process of creating visualizations in Altair. First, you will need to make sure you have the Altair package and its dependencies installed (for more, see the Altair installation documentation), or you are using a notebook environment that includes the dependencies pre-installed.\nThis notebook is part of the data visualization curriculum.\nTo start, we must import the necessary libraries: Pandas for data frames and Altair for visualization.\nimport pandas as pd\nimport altair as alt",
+    "text": "1.1 VALORIZE LEARNING: Where Value is Realized!\nValorize\nKerangka pembelajaran transformatif yang mengintegrasikan Value (nilai), Collaboration (kolaborasi), Artificial Intelligence (Kecerdasan Buatan), dan Personalized Learning (Pembelajaran yang dipersonalisasi) untuk menciptakan pembelajaran yang bermakna (Value Co-Creation) dalam konteks pendidikan berorientasi nilai (Value Oriented Education).",
     "crumbs": [
       "Curriculum",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
     ]
   },
   {
-    "objectID": "valorize_introduction.html#renderers",
-    "href": "valorize_introduction.html#renderers",
+    "objectID": "valorize_introduction.html#visi-misi",
+    "href": "valorize_introduction.html#visi-misi",
     "title": "1  Introduction to Valorize",
-    "section": "1.2 Renderers",
-    "text": "1.2 Renderers\nDepending on your environment, you may need to specify a renderer for Altair. If you are using JupyterLab, Jupyter Notebook, or Google Colab with a live Internet connection you should not need to do anything. Otherwise, please read the documentation for Displaying Altair Charts.",
+    "section": "1.2 Visi Misi",
+    "text": "1.2 Visi Misi\n\n1.2.1 Visi\nMenjadi kerangka kerja pembelajaran transformatif yang mengakui, mengembangkan, dan merealisasikan potensi peserta didik menjadi kompetensi profesional yang autentik.\n\n\n1.2.2 Misi\nMemfasilitasi transformasi peserta didik dari konsumen pengetahuan pasif menjadi produsen nilai aktif melalui: Kolaborasi bermakna dalam Knowledge Marketplace berbasis peer production Pembelajaran berbasis proyek autentik yang relevan dengan kebutuhan profesional Pengembangan identitas profesional yang kuat dan adaptif.\nKomponen inti framework: 1. VALue (Nilai-nilai luhur sebagai fondasi) 2. Organized through CollaRation (Pembelajaran kolaboratif terorganisir) 3. Intelligence (Kecerdasan Buatan sebagai enabler) 4. Zones of PersonalIzed & Zenith Education (Zona pembelajaran personal menuju puncak potensi)",
     "crumbs": [
       "Curriculum",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
