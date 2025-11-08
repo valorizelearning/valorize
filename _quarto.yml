@@ -14,11 +14,11 @@ book:
     - part: Curriculum
       chapters:
         - valorize_introduction.ipynb
-        - altair_marks_encoding.ipynb
-        - altair_data_transformation.ipynb
+        - valorize_content1.ipynb
+        - valorize_content2.ipynb
     - part: Support
       chapters:
-        - altair_debugging.ipynb
+        - valorize_support.ipynb
 
 format:
   html:
