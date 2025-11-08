@@ -11,3 +11,5 @@ visualization-curriculum.Rproj
 .venv/
 .condaenv/
 .ipynb_checkpoints/
+
+**/*.quarto_ipynb

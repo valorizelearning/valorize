@@ -5,8 +5,85 @@ const headroomChanged = new CustomEvent("quarto-hrChanged", {
   composed: false,
 });
 
+const announceDismiss = () => {
+  const annEl = window.document.getElementById("quarto-announcement");
+  if (annEl) {
+    annEl.remove();
+
+    const annId = annEl.getAttribute("data-announcement-id");
+    window.localStorage.setItem(`quarto-announce-${annId}`, "true");
+  }
+};
+
+const announceRegister = () => {
+  const annEl = window.document.getElementById("quarto-announcement");
+  if (annEl) {
+    const annId = annEl.getAttribute("data-announcement-id");
+    const isDismissed =
+      window.localStorage.getItem(`quarto-announce-${annId}`) || false;
+    if (isDismissed) {
+      announceDismiss();
+      return;
+    } else {
+      annEl.classList.remove("hidden");
+    }
+
+    const actionEl = annEl.querySelector(".quarto-announcement-action");
+    if (actionEl) {
+      actionEl.addEventListener("click", function (e) {
+        e.preventDefault();
+        // Hide the bar immediately
+        announceDismiss();
+      });
+    }
+  }
+};
+
 window.document.addEventListener("DOMContentLoaded", function () {
   let init = false;
+
+  announceRegister();
+
+  // Manage the back to top button, if one is present.
+  let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const scrollDownBuffer = 5;
+  const scrollUpBuffer = 35;
+  const btn = document.getElementById("quarto-back-to-top");
+  const hideBackToTop = () => {
+    btn.style.display = "none";
+  };
+  const showBackToTop = () => {
+    btn.style.display = "inline-block";
+  };
+  if (btn) {
+    window.document.addEventListener(
+      "scroll",
+      function () {
+        const currentScrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+
+        // Shows and hides the button 'intelligently' as the user scrolls
+        if (currentScrollTop - scrollDownBuffer > lastScrollTop) {
+          hideBackToTop();
+          lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+        } else if (currentScrollTop < lastScrollTop - scrollUpBuffer) {
+          showBackToTop();
+          lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+        }
+
+        // Show the button at the bottom, hides it at the top
+        if (currentScrollTop <= 0) {
+          hideBackToTop();
+        } else if (
+          window.innerHeight + currentScrollTop >=
+          document.body.offsetHeight
+        ) {
+          showBackToTop();
+        }
+      },
+      false
+    );
+  }
 
   function throttle(func, wait) {
     var timeout;
@@ -28,7 +105,31 @@ window.document.addEventListener("DOMContentLoaded", function () {
   function headerOffset() {
     // Set an offset if there is are fixed top navbar
     const headerEl = window.document.querySelector("header.fixed-top");
-    return headerEl.clientHeight;
+    if (headerEl) {
+      return headerEl.clientHeight;
+    } else {
+      return 0;
+    }
+  }
+
+  function footerOffset() {
+    const footerEl = window.document.querySelector("footer.footer");
+    if (footerEl) {
+      return footerEl.clientHeight;
+    } else {
+      return 0;
+    }
+  }
+
+  function dashboardOffset() {
+    const dashboardNavEl = window.document.getElementById(
+      "quarto-dashboard-header"
+    );
+    if (dashboardNavEl !== null) {
+      return dashboardNavEl.clientHeight;
+    } else {
+      return 0;
+    }
   }
 
   function updateDocumentOffsetWithoutAnimation() {
@@ -37,10 +138,11 @@ window.document.addEventListener("DOMContentLoaded", function () {
 
   function updateDocumentOffset(animated) {
     // set body offset
-    const offset = headerOffset();
+    const topOffset = headerOffset();
+    const bodyOffset = topOffset + footerOffset() + dashboardOffset();
     const bodyEl = window.document.body;
-    bodyEl.setAttribute("data-bs-offset", offset);
-    bodyEl.style.paddingTop = offset + "px";
+    bodyEl.setAttribute("data-bs-offset", topOffset);
+    bodyEl.style.paddingTop = topOffset + "px";
 
     // deal with sidebar offsets
     const sidebars = window.document.querySelectorAll(
@@ -59,34 +161,35 @@ window.document.addEventListener("DOMContentLoaded", function () {
         sidebar.style.top = "0";
         sidebar.style.maxHeight = "100vh";
       } else {
-        sidebar.style.top = offset + "px";
-        sidebar.style.maxHeight = "calc(100vh - " + offset + "px)";
+        sidebar.style.top = topOffset + "px";
+        sidebar.style.maxHeight = "calc(100vh - " + topOffset + "px)";
       }
     });
 
     // allow space for footer
     const mainContainer = window.document.querySelector(".quarto-container");
     if (mainContainer) {
-      mainContainer.style.minHeight = "calc(100vh - " + offset + "px)";
+      mainContainer.style.minHeight = "calc(100vh - " + bodyOffset + "px)";
     }
 
     // link offset
     let linkStyle = window.document.querySelector("#quarto-target-style");
     if (!linkStyle) {
       linkStyle = window.document.createElement("style");
+      linkStyle.setAttribute("id", "quarto-target-style");
       window.document.head.appendChild(linkStyle);
     }
     while (linkStyle.firstChild) {
       linkStyle.removeChild(linkStyle.firstChild);
     }
-    if (offset > 0) {
+    if (topOffset > 0) {
       linkStyle.appendChild(
         window.document.createTextNode(`
       section:target::before {
         content: "";
         display: block;
-        height: ${offset}px;
-        margin: -${offset}px 0 0;
+        height: ${topOffset}px;
+        margin: -${topOffset}px 0 0;
       }`)
       );
     }
@@ -134,12 +237,24 @@ window.document.addEventListener("DOMContentLoaded", function () {
     };
   }
 
+  window.addEventListener(
+    "hashchange",
+    function (e) {
+      if (
+        getComputedStyle(document.documentElement).scrollBehavior !== "smooth"
+      ) {
+        window.scrollTo(0, window.pageYOffset - headerOffset());
+      }
+    },
+    false
+  );
+
   // Observe size changed for the header
   const headerEl = window.document.querySelector("header.fixed-top");
-  if (window.ResizeObserver) {
-    const observer = new window.ResizeObserver(
-      throttle(updateDocumentOffsetWithoutAnimation, 50)
-    );
+  if (headerEl && window.ResizeObserver) {
+    const observer = new window.ResizeObserver(() => {
+      setTimeout(updateDocumentOffsetWithoutAnimation, 0);
+    });
     observer.observe(headerEl, {
       attributes: true,
       childList: true,
@@ -150,20 +265,23 @@ window.document.addEventListener("DOMContentLoaded", function () {
       "resize",
       throttle(updateDocumentOffsetWithoutAnimation, 50)
     );
-    setTimeout(updateDocumentOffsetWithoutAnimation, 500);
   }
+  setTimeout(updateDocumentOffsetWithoutAnimation, 250);
 
   // fixup index.html links if we aren't on the filesystem
   if (window.location.protocol !== "file:") {
     const links = window.document.querySelectorAll("a");
     for (let i = 0; i < links.length; i++) {
-      links[i].href = links[i].href.replace(/\/index\.html/, "/");
+      if (links[i].href) {
+        links[i].dataset.originalHref = links[i].href;
+        links[i].href = links[i].href.replace(/\/index\.html/, "/");
+      }
     }
 
     // Fixup any sharing links that require urls
     // Append url to any sharing urls
     const sharingLinks = window.document.querySelectorAll(
-      "a.sidebar-tools-main-item"
+      "a.sidebar-tools-main-item, a.quarto-navigation-tool, a.quarto-navbar-tools, a.quarto-navbar-tools-item"
     );
     for (let i = 0; i < sharingLinks.length; i++) {
       const sharingLink = sharingLinks[i];
@@ -177,37 +295,30 @@ window.document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Scroll the active navigation item into view, if necessary
-    const navSidebars = window.document.querySelectorAll(
-      "div#quarto-sidebar > nav"
-    );
-    if (navSidebars.length === 1) {
+    const navSidebar = window.document.querySelector("nav#quarto-sidebar");
+    if (navSidebar) {
       // Find the active item
-      const targetNode = navSidebars[0];
-      const activeItems = window.document.querySelectorAll(
-        "li.sidebar-item a.active"
-      );
-      const activeItem = activeItems[0];
-
-      if (activeItems.length === 1) {
+      const activeItem = navSidebar.querySelector("li.sidebar-item a.active");
+      if (activeItem) {
         // Wait for the scroll height and height to resolve by observing size changes on the
         // nav element that is scrollable
         const resizeObserver = new ResizeObserver((_entries) => {
           // The bottom of the element
           const elBottom = activeItem.offsetTop;
-          const viewBottom = targetNode.scrollTop + targetNode.clientHeight;
+          const viewBottom = navSidebar.scrollTop + navSidebar.clientHeight;
 
           // The element height and scroll height are the same, then we are still loading
-          if (viewBottom !== targetNode.scrollHeight) {
+          if (viewBottom !== navSidebar.scrollHeight) {
             // Determine if the item isn't visible and scroll to it
             if (elBottom >= viewBottom) {
-              targetNode.scrollTop = elBottom;
+              navSidebar.scrollTop = elBottom;
             }
 
             // stop observing now since we've completed the scroll
-            resizeObserver.unobserve(targetNode);
+            resizeObserver.unobserve(navSidebar);
           }
         });
-        resizeObserver.observe(targetNode);
+        resizeObserver.observe(navSidebar);
       }
     }
   }

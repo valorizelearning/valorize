@@ -3,9 +3,8 @@ project:
   output-dir: docs
   
 book:
-  title: Visualization Curriculum
-  author: Jeffrey Heer, Dominik Moritz, Jake VanderPlas, and Brock Craft
-  logo: altair-hist.png
+  title: VALORIZE
+  author: Meliana Christianti Johan | NIM 33224001
   repo-url: https://github.com/uwdata/visualization-curriculum
   repo-branch: master
   repo-actions: [issue]
@@ -14,7 +13,7 @@ book:
     - index.md
     - part: Curriculum
       chapters:
-        - altair_introduction.ipynb
+        - valorize_introduction.ipynb
         - altair_marks_encoding.ipynb
         - altair_data_transformation.ipynb
         - altair_scales_axes_legends.ipynb
