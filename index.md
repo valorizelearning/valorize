@@ -15,6 +15,8 @@ _Collaborative Knowledge Management Framework Based on Smart Engineering for Val
 Valorize Learning Framework [Klik Disini](https://valorizelearning.github.io/valorize/) 
 
 ::: {.callout-note appearance="simple"}
-Kata “Valorize” berasal dari bahasa Prancis valoriser dan akar Latin valor (nilai). Dalam konteks pendidikan, Valorize berarti mengakui, mengembangkan, dan merealisasikan potensi yang ada menjadi nilai nyata yang dapat diukur.
+Kata “Valorize” berasal dari bahasa Prancis valoriser dan akar Latin valor (value/nilai).
+Secara umum, artinya adalah memberikan nilai atau menetapkan nilai pada sesuatu.
+Dalam konteks pendidikan, Valorize berarti mengakui, mengembangkan, dan merealisasikan potensi yang ada menjadi nilai nyata yang dapat diukur.
 :::
 
