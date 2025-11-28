@@ -14,7 +14,7 @@
     "href": "valorize_introduction.html",
     "title": "1  Introduction to VALORIZE",
     "section": "",
-    "text": "1.1 VALORIZE LEARNING: Where Value is Realized!\nVALORIZE\nKerangka pembelajaran transformatif yang mengintegrasikan Value (nilai), Collaboration (kolaborasi), Artificial Intelligence (Kecerdasan Buatan), dan Personalized Learning (Pembelajaran yang dipersonalisasi) untuk menciptakan pembelajaran yang bermakna (Value Co-Creation) dalam konteks pendidikan berorientasi nilai (Value-Oriented Education).",
+    "text": "1.1 VALORIZE LEARNING: Where Value is Realized!\nDunia tidak hanya butuh engineer yang tahu, tapi engineer yang menjadi pemimpin kreatif, pemikir etis, dan kolaborator ulung yang mampu merancang masa depan peradaban. Kami mempersembahkan VALORIZE Framework, sebuah ekosistem pembelajaran revolusioner yang dirancang untuk membentuk kembali DNA pendidikan teknik. Dengan mengintegrasikan AI secara humanis, kami menggeser fokus dari penguasaan konten menjadi pembentukan karakter, pola pikir, dan identitas profesional insinyur masa depan\nVALORIZE\nKerangka pembelajaran transformatif yang mengintegrasikan Value (nilai), Collaboration (kolaborasi), Artificial Intelligence (Kecerdasan Buatan), dan Personalized Learning (Pembelajaran yang dipersonalisasi) untuk menciptakan pembelajaran yang bermakna (Value Co-Creation) dalam konteks pendidikan berorientasi nilai (Value-Oriented Education).",
     "crumbs": [
       "Konsep",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to VALORIZE</span>"
@@ -25,7 +25,7 @@
     "href": "valorize_introduction.html#visi-misi",
     "title": "1  Introduction to VALORIZE",
     "section": "1.2 Visi Misi",
-    "text": "1.2 Visi Misi\n\n1.2.1 Visi\nMenjadi kerangka kerja pembelajaran transformatif yang mengakui, mengembangkan, dan merealisasikan potensi peserta didik menjadi kompetensi profesional yang autentik.\n\n\n1.2.2 Misi\nMemfasilitasi transformasi peserta didik dari konsumen pengetahuan pasif menjadi produsen nilai aktif melalui: Kolaborasi bermakna dalam “Knowledge Marketplace” berbasis peer production Pembelajaran berbasis proyek yang relevan dengan kebutuhan profesional dalam mengembangkan identitas profesional yang kuat dan adaptif.",
+    "text": "1.2 Visi Misi\nPenelitian ini lebih dari sekadar sebuah proyek akademik; ini adalah sebuah panggilan untuk bertindak. Kami membayangkan sebuah masa depan di mana pendidikan rekayasa tidak lagi tersekat oleh disiplin ilmu yang kaku, melainkan diorganisir berdasarkan kontribusi untuk memecahkan masalah-masalah paling mendesak di dunia. Dengan kerangka kerja seperti TISE dan VALORIZE, kita dapat mulai merancang “Teater Manusia” — sebuah platform global yang menghubungkan 8 miliar “otak, otot, dan hati” untuk berkolaborasi dan menciptakan solusi yang sebelumnya tak terbayangkan. Ini adalah undangan bagi para pendidik, pemimpin industri, dan pembuat kebijakan untuk berhenti menjadi karakter pasif dalam cerita yang ditentukan oleh teknologi, dan mulai menjadi penulis yang sadar akan narasi masa depan kemanusiaan.\n\n1.2.1 Visi\nMenjadi kerangka kerja pembelajaran transformatif yang mengakui, mengembangkan, dan merealisasikan potensi peserta didik menjadi kompetensi profesional yang autentik.\n\n\n1.2.2 Misi\nMemfasilitasi transformasi peserta didik dari konsumen pengetahuan pasif menjadi produsen nilai aktif melalui: Kolaborasi bermakna dalam “Knowledge Marketplace” berbasis peer production Pembelajaran berbasis proyek yang relevan dengan kebutuhan profesional dalam mengembangkan identitas profesional yang kuat dan adaptif.",
     "crumbs": [
       "Konsep",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to VALORIZE</span>"
@@ -131,157 +131,443 @@
     ]
   },
   {
-    "objectID": "valorize_buktiempiris1.html",
-    "href": "valorize_buktiempiris1.html",
-    "title": "2  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "objectID": "valorize_masalahpenelitian.html",
+    "href": "valorize_masalahpenelitian.html",
+    "title": "2  Paradoks Pendidikan Teknik di Era AI",
     "section": "",
-    "text": "2.0.1 A. Analisis Performa Akademik\nEfektivitas kerangka kerja VALORIZE (CKM-SE) divalidasi melalui studi kuasi-eksperimental pada mata kuliah Probabilitas & Statistika (\\(N=143\\)). Penelitian ini membandingkan kelas dengan penerapan Pembelajaran Kolaboratif (K2) melawan dua kelompok kontrol dengan metode konvensional (K1 & K3).\nBerdasarkan data Ujian Tengah Semester (UTS), berikut adalah perbandingan performa antara kelas intervensi dan kontrol:",
+    "text": "Disrupsi AI telah menciptakan kesenjangan yang fundamental antara dunia akademik dan kebutuhan industri. Kurikulum saat ini terlalu sering:\n\nBerfokus pada Keterampilan yang Terotomasi: Terlalu banyak waktu dihabiskan untuk mengajarkan tugas-tugas teknis rutin yang kini dapat dieksekusi oleh AI dengan lebih cepat dan akurat\nMengabaikan Kompetensi Manusia: Kemampuan unik manusia seperti penalaran etis, kreativitas, pemecahan masalah kompleks, dan kecerdasan kolaboratif seringkali terpinggirkan\nMenciptakan Lulusan Pasif: Mahasiswa diposisikan sebagai “konsumen pengetahuan” pasif, bukan “produsen nilai” yang aktif dan inovatif\nBersifat Konseptual dan Terisolasi: Banyak model pembelajaran inovatif yang ada masih bersifat teoretis, belum teruji di dunia nyata, dan gagal mengintegrasikan teknologi, pedagogi, dan penciptaan nilai secara holistik\n\nKondisi ini menuntut sebuah perombakan total, bukan sekadar penyesuaian kurikulum. Kita membutuhkan sebuah paradigma baru yang secara sadar merancang pengalaman belajar untuk menumbuhkan kearifan, bukan hanya pengetahuan",
     "crumbs": [
       "Konsep",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Paradoks Pendidikan Teknik di Era AI</span>"
     ]
   },
   {
-    "objectID": "valorize_buktiempiris1.html#c.-dampak-terhadap-kompetensi-profesional-non-kognitif",
-    "href": "valorize_buktiempiris1.html#c.-dampak-terhadap-kompetensi-profesional-non-kognitif",
-    "title": "2  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
-    "section": "2.1 C. Dampak Terhadap Kompetensi Profesional (Non-Kognitif)",
-    "text": "2.1 C. Dampak Terhadap Kompetensi Profesional (Non-Kognitif)\nMeskipun hasil akademik bervariasi, dampak VALORIZE sangat konsisten dan kuat pada aspek pembentukan karakter profesional:\n\n\n\n\n\n\n\n\n\nDimensi Pengukuran\nEffect Size (\\(d\\))\nKategori Dampak\nDeskripsi\n\n\n\n\nMotivasi Intrinsik\n0.97\nBesar (Large)\nOtonomi dalam Knowledge Marketplace terbukti memacu semangat belajar.\n\n\nIdentitas Profesional\n0.84\nBesar (Large)\nMahasiswa merasa lebih dekat dengan peran insinyur profesional.\n\n\nTransfer Pembelajaran\n0.95\nBesar (Large)\nKemampuan adaptasi pada masalah baru meningkat signifikan.",
+    "objectID": "valorize_researchgap.html",
+    "href": "valorize_researchgap.html",
+    "title": "3  Keunggulan Inovasi",
+    "section": "",
+    "text": "3.1 Melampaui Batasan: Kesenjangan Penelitian yang Kami Atasi\nInovasi VALORIZE bukanlah evolusi linier, melainkan lompatan paradigma. Penelitian ini secara eksplisit dirancang untuk mengatasi lima celah penelitian utama yang teridentifikasi melalui Tinjauan Literatur Sistematis (SLR) terhadap 54 artikel akademik [ ] [ ].",
     "crumbs": [
       "Konsep",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Keunggulan Inovasi</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_researchgap.html#melampaui-batasan-kesenjangan-penelitian-yang-kami-atasi",
+    "href": "valorize_researchgap.html#melampaui-batasan-kesenjangan-penelitian-yang-kami-atasi",
+    "title": "3  Keunggulan Inovasi",
+    "section": "",
+    "text": "Celah Penelitian yang Diatasi\nMasalah Penelitian Terdahulu\nSolusi TISE-VALORIZE\n\n\n\n\nKesenjangan Konseptual-Empiris\nModel Value Co-Creation (VCC) yang ada masih bersifat konseptual dan belum pernah diuji secara empiris dalam situasi nyata [ @7 @17 @46 ].\nCKM-SE adalah implementasi dan validasi empiris pertama dari TISE-VALORIZE [ @57 @73 ].\n\n\nKesenjangan Metrik Evaluasi\nKurangnya standar baku dan metrik komprehensif untuk mengukur VCC multi-dimensi (kognitif, sosial, etis) dan efektivitas interaksi Siswa-AI [ @18 @19 @39 @101 ].\nPSKVE Engine dan VCC Index menyediakan rubrik terstruktur 5 dimensi (Product, Service, Knowledge, Value, Environmental) untuk mengukur nilai secara holistik [ @4 @61 @164 ].\n\n\nKesenjangan Arsitektur AI\nBelum tersedia model arsitektur yang secara eksplisit mengintegrasikan Kecerdasan Buatan (AI), Pembelajaran Kolaboratif (CL), dan Pembelajaran Personal (PL) untuk mendukung Pendidikan Berorientasi Nilai (VOE) [ @9 @194 ].\nArsitektur Dual Engine (PUDAL-PSKVE) mengimplementasikan sinergi Kecerdasan Tripartit (TISE) untuk memastikan penyelarasan nilai secara struktural [ @4 @24 @69 ].\n\n\nKesenjangan Skalabilitas & Keberlanjutan\nSebagian besar studi inovasi adalah uji coba tunggal. Tidak ada bukti keberlanjutan multi-tahun atau penciptaan aset komunitas [ @20 ].\nKnowledge Marketplace menghasilkan 427 artefak dalam 12 minggu, dengan 16% di antaranya digunakan kembali oleh angkatan berikutnya, membuktikan penciptaan aset komunitas yang berkelanjutan dan terukur [ @54 @72 ].\n\n\n\n\n\n3.1.1 Nilai Inti & Filosofi",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Keunggulan Inovasi</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_researchgap.html#homocordium-kompas-moral-untuk-masa-depan-rekayasa",
+    "href": "valorize_researchgap.html#homocordium-kompas-moral-untuk-masa-depan-rekayasa",
+    "title": "3  Keunggulan Inovasi",
+    "section": "3.2 Homocordium: Kompas Moral untuk Masa Depan Rekayasa",
+    "text": "3.2 Homocordium: Kompas Moral untuk Masa Depan Rekayasa\nJika AI merepresentasikan kemampuan teknis (Homologos), maka Homocordium merepresentasikan kemampuan manusia yang paling mendasar dan tak tergantikan [ @165 ].\nHomocordium (dari Homo, manusia, dan Cor, hati/jantung) adalah pilar filosofis TISE yang menggeser tujuan rekayasa [ @165 ]. Rekayasa Tradisional berfokus pada “memecahkan masalah” teknis, sementara TISE bertujuan untuk menciptakan nilai holistik—membangun “teater kehidupan yang megah” (splendid theaters of life) bagi umat manusia, didorong oleh etika dan kearifan [ @144 @146 @163 ].\nIni berarti bagi lulusan VALORIZE: 1. Keberanian Etis: Mereka dilatih untuk melihat nilai dan etika bukan sebagai batasan, tetapi sebagai kompas moral inti yang memandu setiap keputusan desain [ @149 @162 ]. 2. Kreativitas dan Empati: Mereka mengkultivasi kemampuan yang paling tahan terhadap otomatisasi, yaitu kreativitas, empati, dan identitas profesional yang resilien [ @53 @179 ]. 3. Filosof yang Dapat Dieksekusi: Lulusan TISE-VALORIZE keluar dengan Portofolio Nilai yang Terverifikasi yang membuktikan mereka mampu menerapkan pandangan dunia TISE secara metodis untuk memecahkan masalah sosio-teknis yang kompleks [ @77 ].\nIni adalah janji pendidikan rekayasa di Era AI: membentuk individu yang tidak hanya Kompeten secara Teknis, tetapi juga Bijaksana secara Manusiawi.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Keunggulan Inovasi</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_researchgap.html#ringkasan-inti-inovasi",
+    "href": "valorize_researchgap.html#ringkasan-inti-inovasi",
+    "title": "3  Keunggulan Inovasi",
+    "section": "3.3 Ringkasan Inti Inovasi",
+    "text": "3.3 Ringkasan Inti Inovasi\n\nFilosofi: TISE (Triune-Intelligence Smart Engineering) - Menyeimbangkan Kecerdasan Manusia, Buatan, dan Alamiah [ @82 @165 @170 ].\nKerangka Kerja: VALORIZE Learning - Menggeser fokus pendidikan dari mengetahui (knowing) menjadi menjadi (becoming) seorang profesional beretika [ @56 @60 @175 ].\nArtefak: CKM-SE - Sistem Manajemen Pengetahuan Kolaboratif sebagai cetak biru operasional TISE [ @91 @100 ].\nPenggerak: PUDAL Engine (Personalisasi AI) dan PSKVE Engine (Manajemen Nilai 5 Dimensi) [ @4 @69 @93 ].\nBukti: Efek praktis yang signifikan pada Motivasi Intrinsik (&lt;&gt;), Identitas Profesional (&lt;&gt;), dan Transfer Pembelajaran (&lt;&gt;) [ @73 ].",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Keunggulan Inovasi</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_solusi.html",
+    "href": "valorize_solusi.html",
+    "title": "4  Memperkenalkan CKM-SE: Arsitektur untuk Pembelajaran Bermakna",
+    "section": "",
+    "text": "4.1 Filosofi Inti: Triune-Intelligence Smart Engineering (TISE)\nSebagai jawaban atas tantangan tersebut, kami mengembangkan Collaborative Knowledge Management System–Smart Engineering (CKM-SE), sebuah cetak biru operasional dari filosofi VALORIZE. Ini bukan sekadar platform e-learning, melainkan sebuah Artefak Cerdas (Smart Artefact) yang dirancang untuk merekayasa ulang pengalaman belajar secara fundamental.\nLandasan dari semua ini adalah TISE, sebuah paradigma yang menyeimbangkan tiga jenis kecerdasan untuk menciptakan sistem yang tidak hanya cerdas, tetapi juga bijaksana: 1. Kecerdasan Manusia (Homocordium): Intuisi, etika, kreativitas, dan nilai-nilai kemanusiaan. Ini adalah kompas moral yang memandu seluruh proses 2. Kecerdasan Buatan (Homologos): Kemampuan AI untuk analisis data, pengenalan pola, dan personalisasi. Ini adalah mesin optimasi 3. Kecerdasan Alamiah/Lingkungan: Konteks budaya, batasan fisika, dan prinsip-prinsip sistem yang berkelanjutan. Ini adalah fondasi realitas\nTujuan TISE bukanlah sekadar memecahkan masalah teknis, melainkan untuk membangun \"teater kehidupan yang megah\"—sebuah ekosistem yang mendukung perkembangan dan kesejahteraan potensi manusia secara holistik.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Memperkenalkan CKM-SE: Arsitektur untuk Pembelajaran Bermakna</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_solusi.html#dua-mesin-penggerak-inovasi",
+    "href": "valorize_solusi.html#dua-mesin-penggerak-inovasi",
+    "title": "4  Memperkenalkan CKM-SE: Arsitektur untuk Pembelajaran Bermakna",
+    "section": "4.2 Dua Mesin Penggerak Inovasi",
+    "text": "4.2 Dua Mesin Penggerak Inovasi\nArsitektur CKM-SE dihidupkan oleh dua mesin cerdas yang bekerja secara sinergis:\n\nPUDAL Engine (Perceive, Understand, Decision-Making, Act-Response, Learning-Evaluating): Mesin kognitif berbasis AI yang berfungsi sebagai “GPS” pembelajaran. . Ia memetakan profil belajar setiap mahasiswa, mengidentifikasi celah pengetahuan, dan merekomendasikan jalur pembelajaran personal yang paling efektif.\nPSKVE Engine (Product, Service, Knowledge, Value, Environmental): Mesin manajemen nilai yang mengukur dan mengoptimalkan dampak dari proses belajar. . Ia mengubah konsep abstrak “Penciptaan Nilai Bersama (VCC)” menjadi proses rekayasa yang terukur dalam lima dimensi.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Memperkenalkan CKM-SE: Arsitektur untuk Pembelajaran Bermakna</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_solusi.html#pedagogi-inti-valorize-learning-knowledge-marketplace",
+    "href": "valorize_solusi.html#pedagogi-inti-valorize-learning-knowledge-marketplace",
+    "title": "4  Memperkenalkan CKM-SE: Arsitektur untuk Pembelajaran Bermakna",
+    "section": "4.3 Pedagogi Inti: VALORIZE Learning & Knowledge Marketplace",
+    "text": "4.3 Pedagogi Inti: VALORIZE Learning & Knowledge Marketplace\nDi dalam kelas, kerangka ini diwujudkan melalui sebuah “simulasi profesi” yang disebut VALORIZE Learning. Dinamika kelas diubah menjadi ekosistem ekonomi pengetahuan mikro:\n\nDosen sebagai Pencipta Permintaan: Setiap minggu, dosen “mengiklankan” kebutuhan akan artefak pengetahuan (misalnya, analisis data, peta konsep, atau solusi desain) dengan target tingkat kesulitan tertentu\nMahasiswa sebagai Pencipta Nilai: Mahasiswa secara sukarela merespons “iklan” tersebut dengan menciptakan artefak pengetahuan otentik, memposisikan mereka sebagai profesional yang memecahkan masalah nyata\nTransaksi Berbasis Nilai: Dosen akan “membeli” artefak terbaik menggunakan sistem mata uang digital berjenjang (Uang, Emas, Platinum, Berlian) yang dipetakan langsung ke Taksonomi Bloom, memberikan pengakuan yang jelas atas tingkat penguasaan kognitif\nLegasi Pengetahuan: Artefak yang “dibeli” dipublikasikan di repositori bersama, menjadi aset pengetahuan yang berharga bagi angkatan berikutnya dan mengubah esensi penilaian dari “ujian” menjadi “kontribusi”\n\nPendekatan ini secara inheren menumbuhkan motivasi intrinsik (otonomi, kompetensi, keterhubungan) dan mengelola beban kognitif, memungkinkan mahasiswa membangun pemahaman konseptual yang mendalam.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Memperkenalkan CKM-SE: Arsitektur untuk Pembelajaran Bermakna</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_buktiempiris1.html",
+    "href": "valorize_buktiempiris1.html",
+    "title": "5  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "section": "",
+    "text": "5.1 Analisis Performa Akademik\nEfektivitas kerangka kerja VALORIZE (CKM-SE) divalidasi melalui studi kuasi-eksperimental pada mata kuliah Probabilitas & Statistika (\\(N=143\\)). Penelitian ini membandingkan kelas dengan penerapan Pembelajaran Kolaboratif (K2) melawan dua kelompok kontrol dengan metode konvensional (K1 & K3).\nBerdasarkan data Ujian Tengah Semester (UTS), berikut adalah perbandingan performa antara kelas intervensi dan kontrol:",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_buktiempiris1.html#analisis-performa-akademik",
+    "href": "valorize_buktiempiris1.html#analisis-performa-akademik",
+    "title": "5  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "section": "",
+    "text": "Kelompok\nPerlakuan (Treatment)\nRata-rata Skor (Mean)\nStandar Deviasi\nKeterangan\n\n\n\n\nK1\nKontrol 1\n22.14\n12.35\nBaseline Rendah\n\n\nK2\nIntervensi Kolaboratif\n24.93\n12.55\nPeningkatan vs K1\n\n\nK3\nKontrol 2\n34.04\n9.92\nBaseline Tinggi",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_buktiempiris1.html#temuan-statistik-utama",
+    "href": "valorize_buktiempiris1.html#temuan-statistik-utama",
+    "title": "5  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "section": "5.2 Temuan Statistik Utama",
+    "text": "5.2 Temuan Statistik Utama\nAnalisis statistik menggunakan One-Way ANOVA dan Post-hoc Tukey memberikan wawasan mendalam mengenai posisi metode kolaboratif:\n\nPeningkatan Positif Terhadap Baseline (K2 vs K1):\n\nKelas Intervensi (K2) mencatat rata-rata skor +2.79 poin lebih tinggi dibandingkan Kontrol 1 (K1).\nEffect Size (\\(d=0.22\\)) menunjukkan dampak positif dalam kategori Kecil-Sedang. Ini mengindikasikan bahwa kolaborasi mulai memberikan dampak positif pada pemahaman mahasiswa dibandingkan metode konvensional dasar.\n\nTantangan Implementasi (K2 vs K3):\n\nTerdapat perbedaan signifikan (\\(p &lt; 0.001\\)) di mana Kontrol 2 (K3) memiliki performa lebih tinggi. Hal ini menjadi temuan penting untuk evaluasi lebih lanjut, apakah faktor input mahasiswa atau variabilitas metode konvensional di K3 mempengaruhi hasil.\n\nKesimpulan Awal: Metode kolaboratif VALORIZE (K2) terbukti mampu mengangkat performa di atas batas bawah kelas konvensional (K1), namun memerlukan optimalisasi lebih lanjut (seperti penguatan Personalized Learning melalui PUDAL Engine) untuk mencapai atau melampaui performa kelas unggulan (K3).\n\n (Gambar: Visualisasi distribusi nilai menunjukkan posisi kelas Kolaboratif (K2 - Biru) yang berada di tengah, mengungguli Kontrol K1 namun masih di bawah Kontrol K3)\n\n5.2.1 Temuan Kualitatif: Mekanisme Keberhasilan\nAnalisis tematik terhadap refleksi mahasiswa mengungkap tiga mekanisme utama yang mendorong keberhasilan ini: 1. Nilai Epistemologis: Pembuatan artefak memaksa mahasiswa “mengajar” materi kepada orang lain, yang memperdalam pemahaman mereka sendiri. 2. Nilai Sosial: Adanya Peer Review membuat mahasiswa merasa karyanya “hidup” dan berguna, bukan sekadar tugas untuk dosen. 3. Nilai Identitas: Mahasiswa mulai melabeli diri mereka sebagai “kontributor” atau “insinyur muda”, bukan hanya “peserta kuliah”.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_buktiempiris1.html#dampak-terhadap-kompetensi-profesional-non-kognitif",
+    "href": "valorize_buktiempiris1.html#dampak-terhadap-kompetensi-profesional-non-kognitif",
+    "title": "5  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "section": "5.3 Dampak Terhadap Kompetensi Profesional (Non-Kognitif)",
+    "text": "5.3 Dampak Terhadap Kompetensi Profesional (Non-Kognitif)\nMeskipun hasil akademik bervariasi, dampak VALORIZE sangat konsisten dan kuat pada aspek pembentukan karakter profesional:\n\n\n\n\n\n\n\n\n\nDimensi Pengukuran\nEffect Size (\\(d\\))\nKategori Dampak\nDeskripsi\n\n\n\n\nMotivasi Intrinsik\n0.97\nBesar (Large)\nOtonomi dalam Knowledge Marketplace terbukti memacu semangat belajar. Mahasiswa tidak lagi belajar karena nilai, tetapi karena dorongan dari dalam diri untuk berkarya.\n\n\nIdentitas Profesional\n0.84\nBesar (Large)\nMahasiswa merasa lebih dekat dengan peran engineer profesional. Mahasiswa mulai melihat diri mereka sebagai “pencipta pengetahuan” dan “pakar junior,” bukan lagi konsumen pasif.\n\n\nTransfer Pembelajaran\n0.95\nBesar (Large)\nKemampuan adaptasi pada masalah baru meningkat signifikan. Mahasiswa mampu menerapkan pola pikir strategis untuk memecahkan masalah baru yang belum pernah diajarkan di kelas.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
     ]
   },
   {
     "objectID": "valorize_buktiempiris1.html#status-peta-jalan-riset",
     "href": "valorize_buktiempiris1.html#status-peta-jalan-riset",
-    "title": "2  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
-    "section": "2.2 1.12 Status & Peta Jalan Riset",
-    "text": "2.2 1.12 Status & Peta Jalan Riset\nPenelitian ini dilaksanakan dalam tiga fase strategis (DSRM): * ✅ Fase 1 (Desain & Validasi): Selesai. Menghasilkan arsitektur CKM-SE dan validasi ahli. * ✅ Fase 2 (Prototipe & Pilot): Selesai. Pengembangan PUDAL/PSKVE Engine dan uji coba terbatas (\\(N=143\\)). * 🚀 Fase 3 (Implementasi Skala Penuh): Sedang Berlangsung. Perluasan ke 3 mata kuliah dengan target partisipan \\(N&gt;200\\).\nKesimpulan: VALORIZE memberikan dampak holistik. Sementara peningkatan akademik sedang berjalan bertahap, transformasi pada motivasi dan identitas profesional mahasiswa sudah menunjukkan hasil yang sangat masif dan signifikan.\nLAMPIRAN",
+    "title": "5  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "section": "5.4 Status & Peta Jalan Riset",
+    "text": "5.4 Status & Peta Jalan Riset\nPenelitian ini dilaksanakan dalam tiga fase strategis (DSRM): * Fase 1 (Desain & Validasi): Selesai. Menghasilkan arsitektur CKM-SE dan validasi ahli. * Fase 2 (Prototipe & Pilot): Selesai. Pengembangan PUDAL/PSKVE Engine dan uji coba terbatas (\\(N=143\\)). * Fase 3 (Implementasi Skala Penuh): Sedang Berlangsung. Perluasan ke 3 mata kuliah dengan target partisipan \\(N&gt;200\\).\nKesimpulan: VALORIZE memberikan dampak holistik. Sementara peningkatan akademik sedang berjalan bertahap, transformasi pada motivasi dan identitas profesional mahasiswa sudah menunjukkan hasil yang sangat masif dan signifikan.\nLAMPIRAN",
     "crumbs": [
       "Konsep",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_visijangkapanjang.html",
+    "href": "valorize_visijangkapanjang.html",
+    "title": "6  Visi Jangka Panjang & Kepemimpinan",
+    "section": "",
+    "text": "6.1 Visi VALORIZE: Merekayasa Renaisans Pendidikan\nParadigma Triune-Intelligence Smart Engineering (TISE) bukan sekadar alat, melainkan sebuah filosofi rekayasa yang didesain untuk kompleksitas abad ke-21 [ ]. Ia mensintesiskan pelajaran dari prinsip-prinsip fundamental alam semesta—seperti kemunculan hierarkis, termodinamika kompleksitas, dan adaptasi Darwinian—untuk menciptakan sistem yang cerdas, bijaksana, dan manusiawi [ ].",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Visi Jangka Panjang & Kepemimpinan</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_visijangkapanjang.html#visi-valorize-merekayasa-renaisans-pendidikan",
+    "href": "valorize_visijangkapanjang.html#visi-valorize-merekayasa-renaisans-pendidikan",
+    "title": "6  Visi Jangka Panjang & Kepemimpinan",
+    "section": "",
+    "text": "6.1.0.1 1. Pilar Kebijaksanaan (Triune Intelligence)\nPada akhirnya, TISE menyediakan kerangka kerja yang bertanggung jawab secara etis ke depan, menempatkan kebijaksanaan dan nilai-nilai manusia (Homocordium) sebagai pemandu bagi kecerdasan buatan (Homologos) dan batasan alam (Kecerdasan Alam) [ @163 @174 ].\n\n\n\n\n\n\n\nPilar Kecerdasan\nPeran dalam Sistem CKM-SE\n\n\n\n\nKecerdasan Manusia (Homocordium)\nKompas moral dan sumber kreativitas; mendefinisikan “masalah penting manusia” [ ].\n\n\nKecerdasan Buatan (Homologos)\nMesin logis, komputasi, dan personalisasi; diarahkan oleh Homocordium [ ].\n\n\nKecerdasan Alamiah\nPenyedia batasan realistis (misalnya, keberlanjutan) dan konteks ekologis [ ].\n\n\n\nKeseimbangan ini dioperasionalkan secara berkelanjutan melalui siklus PUDAL dan PSKVE, yang mencegah AI mencapai kesimpulan yang bias atau tidak etis, dan memaksa optimasi multi-objektif (menyeimbangkan keuntungan ekonomi dengan dampak lingkungan) [ @154 @151 ].\n\n\n6.1.0.2 2. Peta Jalan Inovasi (Jangka Panjang 5 Tahun)\nPenelitian CKM-SE adalah langkah strategis pertama dalam peta jalan riset jangka panjang yang dirancang untuk memastikan peningkatan skala dan dampak nasional [ ].\n\n\n\n\n\n\n\n\n\nTahap\nTahun\nFokus Utama\nTarget Dampak\n\n\n\n\nFase 1: Fondasi & Validasi Awal\n2025–2026\nPengembangan kerangka teoretis (VALORIZE) dan purwarupa Alpha (Peta Pengetahuan, Knowledge Marketplace) [ ].\nPurwarupa fungsional (versi Beta/RC), publikasi Q2 Scopus, bukti empiris awal [ @237 @236 ].\n\n\nFase 2: Validasi Skala Luas & Iterasi\n2026–2027\nImplementasi quasi-experiment yang lebih besar (&lt;&gt;) di ITB/UPI [ @6 @246 ]. Studi longitudinal untuk mengukur retensi dan dampak jangka panjang [ ].\nPublikasi jurnal internasional tingkat atas (target Q1), penyusunan implementation handbook [ @77 @3 ].\n\n\nFase 3: Pengembangan Lanjutan & Diseminasi\n2027–2029\nPengembangan platform production-grade, integrasi AI yang lebih canggih (misalnya, analitik pembelajaran mendalam) [ @248 ].\nDiseminasi masif, pelatihan dosen (training-of-trainers), publikasi di jurnal dan konferensi internasional tingkat atas [ @249 @248 ].\n\n\nFase 4: Hilirisasi & Dampak Nasional\n2029–2030\nMenjajaki hilirisasi VALORIZE sebagai produk Education Technology (EdTech) [ @250 ].\nModel bisnis berkelanjutan (SaaS atau lisensi institusional), mendukung transformasi digital pendidikan tinggi Indonesia Emas 2045 [ @251 @250 ].\n\n\n\nMengadopsi taksonomi dan filosofi baru ini adalah langkah evolusioner yang diperlukan bagi profesi rekayasa untuk tetap relevan. Ini adalah panggilan untuk bergerak melampaui sekadar “memecahkan masalah” dan mulai secara sadar, sistematis, dan bijaksana merancang “teater kehidupan yang megah” untuk kemanusiaan yang lebih berkelanjutan dan sejahtera [ @164 @162 ].",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Visi Jangka Panjang & Kepemimpinan</span>"
     ]
   },
   {
     "objectID": "valorize_content1.html",
     "href": "valorize_content1.html",
-    "title": "3  Content1",
+    "title": "7  Content1",
     "section": "",
     "text": "Coming soon!",
     "crumbs": [
       "Konsep",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Content1</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Content1</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_metodologidanvalidasi.html",
+    "href": "valorize_metodologidanvalidasi.html",
+    "title": "8  [Metodologi & Validasi]]{.chapter-title}",
+    "section": "",
+    "text": "8.1 Metodologi yang Kaku: Membangun Inovasi dengan Bukti Empiris\nKeberhasilan Kerangka CKM-SE didasarkan pada metodologi riset yang ketat, menjembatani kesenjangan antara potensi teoretis dan dampak praktis pedagogis. Kami menggunakan dua kerangka kerja utama untuk memastikan validitas dan keketatan.",
+    "crumbs": [
+      "Metodologi dan Validasi",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Metodologi & Validasi]</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_metodologidanvalidasi.html#metodologi-yang-kaku-membangun-inovasi-dengan-bukti-empiris",
+    "href": "valorize_metodologidanvalidasi.html#metodologi-yang-kaku-membangun-inovasi-dengan-bukti-empiris",
+    "title": "8  [Metodologi & Validasi]]{.chapter-title}",
+    "section": "",
+    "text": "8.1.0.1 1. Design Science Research Methodology (DSRM)\nCKM-SE dikembangkan sebagai sebuah Smart Artefact mengikuti siklus Design Science Research Methodology (DSRM) dari Peffers dkk. (2007) [@289 @72]. DSRM adalah filosofi penelitian yang berfokus pada penciptaan dan evaluasi artefak untuk memecahkan masalah praktis sambil memberikan kontribusi teoretis [@68 @79].\nProses pengembangan kami mencakup tiga fase Seminar Kemajuan (SK) yang terstruktur: | Tahap SK Ke- | Tujuan Utama | Status/Target | | :—: | :— | :— | | SK I | Desain Arsitektur Konseptual (TISE, PUDAL, PSKVE) | Selesai (Agustus–Desember 2025) [@28 @2 @1] | | SK II | Pengembangan Prototipe dan Uji Usabilitas | Direncanakan (Target SUS &lt;&gt;) [@28 @4 @65] | | SK III | Validasi Empiris Skala Penuh (Quasi-Experiment) | Direncanakan (Target &lt;&gt;) [@28 @4 @71] |\n\n\n8.1.0.2 2. Kerangka Validasi PICOC-ASTF Berlapis\nUntuk mengatasi keterbatasan penelitian terdahulu yang menggunakan metrik evaluasi yang terbatas [@43], kami menerapkan kerangka PICOC-ASTF [@84 @2 @30]. Kerangka ini memungkinkan validasi berlapis dari ide yang paling fundamental hingga dampak aplikasi dunia nyata:\n\nLapisan Fundamental (F): Menilai koherensi dan validitas teori konseptual (misalnya, TISE dan VALORIZE) melalui penilaian ahli [@218 @293].\nLapisan Teknologi (T): Mengukur akurasi algoritma AI untuk personalisasi dan performa sistem secara teknis [@293].\nLapisan Sistem (S): Mengevaluasi kepuasan pengguna (Usability Score &lt;&gt;), kualitas kolaborasi, dan peningkatan hasil belajar [@23 @293].\nLapisan Aplikasi (A): Mengukur dampak pada Penciptaan Nilai Bersama (VCC Index), tingkat penggunaan kembali artefak, dan transfer pembelajaran. Target kami adalah effect size &lt;&gt; untuk hasil belajar utama [@19 @23 @293].\n\n\n\n\n8.1.1 [Halaman: Arsitektur Teknis]",
+    "crumbs": [
+      "Metodologi dan Validasi",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Metodologi & Validasi]</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_metodologidanvalidasi.html#anatomi-inovasi-bagaimana-ckm-se-bekerja",
+    "href": "valorize_metodologidanvalidasi.html#anatomi-inovasi-bagaimana-ckm-se-bekerja",
+    "title": "8  [Metodologi & Validasi]]{.chapter-title}",
+    "section": "8.2 Anatomi Inovasi: Bagaimana CKM-SE Bekerja",
+    "text": "8.2 Anatomi Inovasi: Bagaimana CKM-SE Bekerja\nCKM-SE adalah orkestrasi Kecerdasan Manusia, Buatan, dan Alamiah. Sistem ini terdiri dari dua mesin yang terintegrasi ke dalam platform inti (Open LMS) [@339 @337]:\n\n8.2.1 1. PUDAL Engine (The Cognitive Layer)\nPUDAL (Perceive, Understand, Decision-Making, Act-Response, Learning-Evaluating) adalah mesin personalisasi adaptif kami. Ini berfungsi sebagai mekanisme kognitif AI yang memodelkan cara berpikir pakar rekayasa, memastikan setiap mahasiswa belajar pada jalur yang sesuai dengan gaya belajarnya [@13 @57 @2]:\n\nPerceive & Understand: Menganalisis data interaksi (misalnya, waktu yang dihabiskan pada diagram vs. teks) untuk memetakan profil belajar mahasiswa berdasarkan dimensi seperti Sensing/Intuitive, Visual/Auditory, Active/Reflective, dan Sequential/Global (FSLSM) [@60 @49].\nDecide & Act: Jika seorang mahasiswa memiliki preferensi Visual dan Reflektif, PUDAL akan merekomendasikan: 1) visualisasi interaktif, 2) simulasi praktis, dan kemudian barulah pengenalan rumus abstrak. Tindakan ini disesuaikan secara real-time untuk mengatasi miskonsepsi secara diagnostik [@53 @62].\n\n\n\n8.2.2 2. PSKVE Engine (The Value Co-Creation Layer)\nPSKVE (Product, Service, Knowledge, Value, Environmental) adalah kerangka kerja 5-dimensi yang mengubah VCC dari konsep abstrak menjadi metrik rekayasa yang terukur (VCC Index 0-100) [@2 @55]. PSKVE memastikan bahwa insinyur masa depan mengevaluasi solusi secara holistik, melampaui kinerja teknis murni:\n\n\n\n\n\n\n\n\nDimensi PSKVE\nFokus Pengukuran\nContoh Penerapan dalam Proyek\n\n\n\n\nP (Product)\nKinerja teknis dan fungsional artefak.\nAkurasi perhitungan, kebenaran implementasi kode [@55].\n\n\nS (Service)\nKemudahan penggunaan dan rekomendasi yang dapat ditindaklanjuti.\nApakah solusi yang dihasilkan mudah dipahami oleh audiens awam? [@55].\n\n\nK (Knowledge)\nDokumentasi, generalisasi, dan potensi penggunaan kembali.\nApakah artefak dapat digunakan oleh angkatan berikutnya? [@54].\n\n\nV (Value)\nPersepsi nilai komunitas dan komitmen etis pencipta.\nPengakuan rekan sebaya melalui Knowledge Marketplace [@58 @54].\n\n\nE (Environmental)\nPertimbangan keberlanjutan dan dampak siklus hidup produk.\nMitigasi dampak lingkungan, skor keberlanjutan jangka panjang [@70 @153].\n\n\n\n\n\n\n8.2.3 [Halaman: Transformasi Profesional]",
+    "crumbs": [
+      "Metodologi dan Validasi",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Metodologi & Validasi]</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_metodologidanvalidasi.html#membentuk-arsitek-t-shaped-professionalisme",
+    "href": "valorize_metodologidanvalidasi.html#membentuk-arsitek-t-shaped-professionalisme",
+    "title": "8  [Metodologi & Validasi]]{.chapter-title}",
+    "section": "8.3 Membentuk Arsitek: T-Shaped Professionalisme",
+    "text": "8.3 Membentuk Arsitek: T-Shaped Professionalisme\nKerangka TISE-VALORIZE didasarkan pada pergeseran taksonomi rekayasa dari klasifikasi berbasis disiplin (insinyur listrik, insinyur sipil) menjadi klasifikasi berdasarkan Lapisan Kontribusi (ASTF) [@211 @209].\n\n8.3.0.1 Simulasi Dunia Nyata: Mengadopsi Alur Kerja Profesional\nCKM-SE secara eksplisit mengintegrasikan praktik industri nyata yang dikenal sebagai Authentic Audience and Professional Workflow untuk menutup kesenjangan antara akademisi dan realitas profesional [@323]:\n\nAgile/Scrum Workflow: Semester dibagi menjadi “sprint” berjangka waktu yang selaras dengan arsitektur ASTF [@319]. Peninjauan sebaya (rata-rata 9,2 tinjauan per artefak) berfungsi sebagai Sprint Review profesional, menumbuhkan akuntabilitas dan keandalan [@323 @321].\nVersion Control (Git/GitHub): Semua dokumen dan kode dikelola menggunakan Git/GitHub, menciptakan bukti kepenulisan yang tidak dapat disangkal dan mendemonstrasikan praktik kolaboratif yang terverifikasi, yang penting untuk mendapatkan Reliability Bonds (Nilai Perlindungan) dalam kerangka VALORIZE 2.0 [@320 @380].\nKeahlian T-Shaped: Model pembelajaran ini memastikan setiap lulusan mengembangkan keahlian berbentuk T—pengetahuan mendalam di satu area teknis (spesialisasi teknologi) dan pemahaman yang luas tentang bagaimana keahlian itu terintegrasi ke dalam sistem sosio-teknis yang lebih besar (Lapisan Sistem dan Aplikasi) [@213 @222].\n\n\n\n\n8.3.1 [Halaman: Terlibat & Kontak (Call to Action)]",
+    "crumbs": [
+      "Metodologi dan Validasi",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Metodologi & Validasi]</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_metodologidanvalidasi.html#jadilah-bagian-dari-babak-berikutnya",
+    "href": "valorize_metodologidanvalidasi.html#jadilah-bagian-dari-babak-berikutnya",
+    "title": "8  [Metodologi & Validasi]]{.chapter-title}",
+    "section": "8.4 Jadilah Bagian dari Babak Berikutnya",
+    "text": "8.4 Jadilah Bagian dari Babak Berikutnya\nPenelitian CKM-SE/VALORIZE adalah respons adaptif terhadap evolusi rekayasa. Ini adalah kesempatan untuk beralih dari sekadar menciptakan benda menjadi merancang ekosistem peradaban yang lebih baik [@175 @215].\nKami mengundang kolaborasi dari berbagai pemangku kepentingan:\n\nInstitusi Pendidikan Tinggi: Adopsi Kerangka VALORIZE untuk program studi teknik Anda. Kami dapat menyediakan cetak biru operasional dan panduan pedagogis untuk pengembangan kapasitas pengajar [@29 @83].\nPengembang Sistem Cerdas (AI/KMS): Kami menawarkan model teoretis dan spesifikasi algoritma (PUDAL Engine dan PSKVE Engine) yang telah divalidasi, siap untuk diintegrasikan ke dalam platform pembelajaran Anda [@22 @71].\nMitra Industri: Dukung penelitian longitudinal kami untuk melihat dampak portofolio yang terverifikasi pada hasil karier pasca-kelulusan. Bantu kami mendefinisikan Wicked Problems untuk proyek berbasis masalah multi-disiplin [@325 @182 @213].\n\n\nDari ‘Publish or Perish’ menuju ‘Empower or Perish’ Nilai terbesar sebuah organisasi tidak lagi terletak pada seberapa banyak yang dipublikasikan, tetapi pada kemampuannya untuk memberdayakan kecerdasan kolektif untuk memecahkan masalah nyata [@377 @192].\n\n\n8.4.1 [Halaman: Metodologi & Validasi]",
+    "crumbs": [
+      "Metodologi dan Validasi",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Metodologi & Validasi]</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_metodologidanvalidasi.html#picoc-astf-kerangka-evaluasi-berlapis-untuk-rekayasa-cerdas",
+    "href": "valorize_metodologidanvalidasi.html#picoc-astf-kerangka-evaluasi-berlapis-untuk-rekayasa-cerdas",
+    "title": "8  [Metodologi & Validasi]]{.chapter-title}",
+    "section": "8.5 PICOC-ASTF: Kerangka Evaluasi Berlapis untuk Rekayasa Cerdas",
+    "text": "8.5 PICOC-ASTF: Kerangka Evaluasi Berlapis untuk Rekayasa Cerdas\nProyek VALORIZE/CKM-SE tidak hanya divalidasi dengan membandingkan nilai akhir. Mengingat artefak ini adalah sebuah sistem cerdas, kami menggunakan kerangka evaluasi berlapis yang dikembangkan secara spesifik, yaitu PICOC-ASTF [ @3 ] [ @28 ].\nKerangka ini menggabungkan prinsip Design Science Research Methodology (DSRM) dengan validasi ilmiah berbasis bukti, memastikan setiap klaim efektivitas diukur dari filosofi paling dasar hingga dampak aplikasi dunia nyata [ @3 ] [ @152 ].\n\n\n\n\n\n\n\n\n\nLapisan (ASTF)\nFokus Evaluasi\nPertanyaan yang Dijawab\nMetrik Kunci\n\n\n\n\nF: Fundamental\nKoherensi Teoretis\nApakah filosofi VALORIZE (VOE-VCC-TISE) konsisten dan didukung oleh teori-teori seperti SDT dan CLT?\nValidasi Ahli (skor rata-rata ≥ 4/5) [ @154 ] [ @3 ]\n\n\nT: Technology\nKinerja Teknologi\nApakah mesin kognitif berbasis AI (PUDAL Engine) berfungsi dengan akurat (misalnya, akurasi profiling gaya belajar) dan seberapa efektif alat kognitif (Peta Pengetahuan) mereduksi beban kognitif?\nAkurasi Algoritma, Kinerja Sistem, Pengurangan Cognitive Load [ @154 ]\n\n\nS: System\nUsabilitas & Penerimaan\nApakah sistem CKM-SE mudah digunakan oleh mahasiswa dan dosen? Apakah meningkatkan motivasi dan kualitas kolaborasi?\nSkor SUS (target ≥ 70) [ @13 ] [ @10 ], Motivasi Intrinsik, Identitas Profesional [ @6 ]\n\n\nA: Application\nDampak Dunia Nyata\nApakah sistem terbukti meningkatkan hasil belajar dan menciptakan nilai holistik (VCC) yang berkelanjutan?\nUkuran efek (Cohen’s d ≥ 0.80) untuk Transfer Pembelajaran, Tingkat Penggunaan Ulang Artefak (target ≥ 20%), VCC Index [ @25 ] [ @12 ]\n\n\n\nValidasi melalui empat lapisan ini (Fundamental, Technology, System, Application) memastikan bahwa CKM-SE adalah Smart Artifact yang kokoh, baik secara konseptual, teknis, maupun fungsional [ @3 ] [ @29 ].\n\n\n8.5.1 [Halaman: Peta Jalan & Visi Jangka Panjang]",
+    "crumbs": [
+      "Metodologi dan Validasi",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Metodologi & Validasi]</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_metodologidanvalidasi.html#visi-20292030-menjadi-arsitek-pendidikan-nasional",
+    "href": "valorize_metodologidanvalidasi.html#visi-20292030-menjadi-arsitek-pendidikan-nasional",
+    "title": "8  [Metodologi & Validasi]]{.chapter-title}",
+    "section": "8.6 Visi 2029–2030: Menjadi Arsitek Pendidikan Nasional",
+    "text": "8.6 Visi 2029–2030: Menjadi Arsitek Pendidikan Nasional\nPengembangan VALORIZE terstruktur dalam sebuah Peta Jalan multi-tahun yang bertujuan untuk mencapai dampak nasional dan hilirisasi sebagai produk teknologi pendidikan (EdTech).\n\n8.6.0.1 Fase 1: Validasi Awal & Purwarupa (Tahun 1: 2025–2026)\n\nFokus: Mengembangkan kerangka konseptual (SK I), merancang dan menguji purwarupa Alpha CKM-SE (SK II), dan memvalidasi efektivitas awal melalui uji coba terbatas (piloting) [ @126 ] [ @113 ].\nStatus Kunci: Purwarupa Alpha fungsional selesai (Maret 2026) dan publikasi dua artikel ilmiah Q2 [ @127 ] [ @120 ].\n\n\n\n8.6.0.2 Fase 2: Validasi Skala Luas & Iterasi (Tahun 2: 2026–2027)\n\nFokus: Melaksanakan studi kuasi-eksperimental yang lebih besar dan longitudinal (full-scale validation) di berbagai mata kuliah dan program studi (target N=135) [ @2 ] [ @6 ] [ @129 ].\nKegiatan: Membandingkan hasil belajar antara kelas VALORIZE dan kelas kontrol selama satu tahun penuh untuk mengukur dampak jangka panjang terhadap retensi pengetahuan dan motivasi [ @128 ].\n\n\n\n8.6.0.3 Fase 3: Pengembangan Lanjutan & Diseminasi Nasional (Tahun 3–4: 2027–2029)\n\nFokus: Mentransformasi purwarupa menjadi produk stabil (production-grade) dengan fitur AI dan analitik pembelajaran yang lebih canggih [ @131 ].\nKegiatan: Mengembangkan modul pelatihan (training-of-trainers) dan lokakarya untuk dosen di perguruan tinggi lain yang ingin mengadopsi VALORIZE. Diseminasi hasil riset di konferensi internasional tingkat atas [ @130 ] [ @131 ].\n\n\n\n8.6.0.4 Fase 4: Potensi Hilirisasi & Dampak EdTech (Tahun 5: 2029–2030)\n\nFokus: Menjajaki potensi komersialisasi platform VALORIZE sebagai produk EdTech yang dapat diadopsi secara luas di Indonesia [ @132 ].\nTujuan Akhir: Bekerja sama dengan unit inovasi universitas (misalnya, LPIK ITB) untuk mengembangkan model bisnis berkelanjutan (misalnya, model Software-as-a-Service atau lisensi institusional), sejalan dengan Visi Indonesia Emas 2045 [ @132 ].\n\nVisi ini mengukuhkan VALORIZE sebagai solusi yang dirancang tidak hanya untuk satu kelas atau institusi, tetapi sebagai cetak biru yang dapat direplikasi untuk masa depan pendidikan tinggi teknik di Indonesia [ @27 ].",
+    "crumbs": [
+      "Metodologi dan Validasi",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Metodologi & Validasi]</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_studikasus.html",
+    "href": "valorize_studikasus.html",
+    "title": "9  Studi Kasus",
+    "section": "",
+    "text": "9.1 Dari Kebingungan Menjadi Kreator: Perjalanan Seorang Mahasiswa dalam Ekosistem VALORIZE\nUntuk memahami dampak nyata dari CKM-SE, mari kita ikuti perjalanan Budiarti, seorang mahasiswa fiktif di tahun ketiga program studi Teknik Elektro yang mengambil mata kuliah wajib, Probabilitas dan Statistika.",
+    "crumbs": [
+      "Studi Kasus",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Studi Kasus</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_studikasus.html#dari-kebingungan-menjadi-kreator-perjalanan-seorang-mahasiswa-dalam-ekosistem-valorize",
+    "href": "valorize_studikasus.html#dari-kebingungan-menjadi-kreator-perjalanan-seorang-mahasiswa-dalam-ekosistem-valorize",
+    "title": "9  Studi Kasus",
+    "section": "",
+    "text": "9.1.0.1 Tahap 1: Tantangan Awal (Paradigma Lama)\nDi awal semester, perkuliahan berjalan secara konvensional @23. Dosen menjelaskan konsep abstrak seperti “Teorema Bayes” di depan kelas. Budiarti merasa kesulitan; ia memahami rumus dasarnya tetapi gagal menghubungkannya dengan masalah dunia nyata. Ia merasa hanya menjadi penerima pasif informasi, dan motivasinya mulai menurun. Ini adalah cerminan dari kesenjangan pedagogis yang ingin diatasi oleh VALORIZE: fokus pada mengetahui (knowing) daripada menjadi (becoming) seorang pemecah masalah @8 @50.\n\n\n9.1.0.2 Tahap 2: Intervensi CKM-SE (Titik Balik)\nMinggu berikutnya, dosen—yang kini berperan sebagai Arsitek Sistem @10—memperkenalkan ekosistem CKM-SE. Ia memposting sebuah “Sprint Goal” di Knowledge Marketplace: “Buatlah artefak pengetahuan yang dapat menjelaskan Teorema Bayes kepada audiens non-teknis dengan menggunakan contoh kasus dari kehidupan sehari-hari.” @10 @196\nBudiarti, yang sekarang berperan sebagai “Associate TISE Systems Engineer” @11, memutuskan untuk menerima tantangan ini.\n\nInteraksi dengan PUDAL Engine: Saat Budiarti mulai meneliti, PUDAL Engine @135 menganalisis profil belajarnya (yang teridentifikasi sebagai pembelajar visual) dan riwayat interaksinya @116. Sistem kemudian merekomendasikan serangkaian sumber belajar yang dipersonalisasi: bukan hanya teks, tetapi juga video visualisasi, simulasi interaktif, dan studi kasus yang relevan @119.\nPenciptaan Artefak: Terinspirasi oleh sumber daya tersebut, Budiarti memutuskan untuk tidak hanya menulis rangkuman. Ia merancang sebuah infografis interaktif yang menjelaskan Teorema Bayes menggunakan contoh diagnosis medis. Proses ini memaksanya untuk benar-benar memahami konsep secara mendalam agar bisa menyederhanakannya—sebuah pergeseran dari hafalan ke model mental yang kuat @68. Ia menggunakan Git/GitHub untuk mengelola versi drafnya, sebuah praktik profesional standar industri @18.\nPenilaian di Knowledge Marketplace: Budiarti mengunggah infografisnya ke Knowledge Marketplace. Karyanya kemudian ditinjau oleh rekan-rekannya dan dievaluasi oleh dosen menggunakan rubrik PSKVE Engine @128.\n\n\n\n\n\n\n\n\n\nDimensi PSKVE\nEvaluasi Artefak Budiarti\nSkor\n\n\n\n\nProduct (Produk)\nKualitas desain visual tinggi, bebas eror, dan fungsional.\n95/100\n\n\nService (Layanan)\nSangat membantu mahasiswa lain; penjelasan jernih dan mudah dipahami.\n90/100\n\n\nKnowledge (Pengetahuan)\nAkurasi konseptual sempurna; menunjukkan pemahaman mendalam.\n98/100\n\n\nValue (Nilai)\nUlasan sejawat sangat positif; beberapa mahasiswa langsung menggunakannya untuk belajar.\n88/100\n\n\nEnvironmental (Lingkungan)\nArtefak digital, mudah didistribusikan, dan berkelanjutan.\n100/100\n\n\n\nDosen memberikan Budiarti “mata uang digital” sebagai penghargaan, yang meningkatkan statusnya di dalam ekosistem kelas @219. Lebih penting lagi, umpan balik dari rekan-rekannya membantunya menyempurnakan karyanya.\n\n\n9.1.0.3 Tahap 3: Transformasi dan Dampak Jangka Panjang\nHasil dari proses ini jauh melampaui nilai ujian.\n\nDampak Personal: Budiarti tidak lagi melihat dirinya sebagai mahasiswa yang berjuang, tetapi sebagai seorang kreator nilai dan “pakar junior” di bidang Teorema Bayes @66. Identitas profesionalnya menguat, dan motivasi intrinsiknya meroket, sejalan dengan temuan penelitian (&lt;&gt; untuk identitas profesional, &lt;&gt; untuk motivasi) @17.\nDampak Komunitas (Value Co-Creation): Inilah bukti paling kuat dari keberhasilan VCC. Semester berikutnya, ketika angkatan baru mengambil mata kuliah yang sama, infografis Budiarti menjadi salah satu sumber belajar utama yang direkomendasikan oleh sistem. Karyanya menjadi bagian dari aset pengetahuan komunal yang terus berkembang @51, sebuah fenomena yang terbukti ketika 16% dari 427 artefak yang dibuat selama penelitian digunakan kembali oleh angkatan selanjutnya @3 @43.\nDampak Karier: Artefak Budiarti, beserta riwayat kontribusi dan ulasan sejawatnya di GitHub, kini menjadi bagian dari portofolio nilai yang terverifikasi @20. Saat melamar magang, ia dapat menunjukkan bukti nyata kemampuannya dalam komunikasi teknis dan kolaborasi—sesuatu yang jauh lebih berharga daripada transkrip nilai.\n\nPerjalanan Budiarti adalah mikrokosmos dari visi VALORIZE: mengubah ruang kelas menjadi “teater kehidupan yang megah” @8, di mana mahasiswa tidak hanya belajar untuk ujian, tetapi belajar untuk menjadi insinyur dan arsitek peradaban yang kompeten, beretika, dan inovatif.",
+    "crumbs": [
+      "Studi Kasus",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Studi Kasus</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_jawab0_evaluasirancangan.html",
+    "href": "valorize_jawab0_evaluasirancangan.html",
+    "title": "10  Evaluasi Rancangan",
+    "section": "",
+    "text": "10.1 Rancangan Evaluasi: Validasi Berlapis dengan Kerangka PICOC-ASTF\nUntuk memastikan klaim efektivitas CKM-SE didasarkan pada bukti yang kuat, kami merancang sebuah protokol evaluasi yang komprehensif. Kami tidak hanya bertanya, “Apakah sistem ini berhasil?” tetapi lebih dalam: “Mengapa, bagaimana, dan pada level apa ia berhasil?”\nUntuk menjawabnya, kami mengintegrasikan dua kerangka kerja yang kuat: 1. DSRM (Design Science Research Methodology): Sebagai metodologi utama untuk merancang dan membangun CKM-SE sebagai sebuah Smart Artifact @41 @107. 2. PICOC-ASTF: Sebagai kerangka evaluasi untuk mengukur dampak artefak tersebut secara berlapis, dari fondasi teoretis hingga aplikasi di dunia nyata @1 @3 @55 @60 @171.",
+    "crumbs": [
+      "SK I",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Evaluasi Rancangan</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_jawab0_evaluasirancangan.html#rancangan-evaluasi-validasi-berlapis-dengan-kerangka-picoc-astf",
+    "href": "valorize_jawab0_evaluasirancangan.html#rancangan-evaluasi-validasi-berlapis-dengan-kerangka-picoc-astf",
+    "title": "10  Evaluasi Rancangan",
+    "section": "",
+    "text": "10.1.1 Struktur Evaluasi Berlapis (ASTF)\nEvaluasi kami terstruktur dalam empat lapisan investigasi yang berbeda, memastikan validasi di setiap tingkatan—dari ide hingga implementasi.\n\n\n\n\n\n\n\n\nLapisan (ASTF)\nFokus Utama\nPertanyaan Kunci\n\n\n\n\nA: Aplikasi\nDampak Dunia Nyata & VCC\nApakah CKM-SE secara signifikan meningkatkan hasil belajar dan memfasilitasi penciptaan nilai bersama (VCC) dalam konteks nyata?\n\n\nS: Sistem\nKualitas & Penerimaan Pengguna\nBagaimana pengalaman pengguna (mahasiswa & dosen) dengan sistem CKM-SE? Apakah sistem memotivasi dan mendukung kolaborasi?\n\n\nT: Teknologi\nKinerja Mesin Inti\nSeberapa andal dan akurat mesin PUDAL (personalisasi) dan PSKVE (pengukuran nilai) berfungsi secara teknis?\n\n\nF: Fundamental\nKoherensi & Validitas Teoretis\nApakah kerangka kerja TISE-VALORIZE yang mendasari sistem ini solid secara konseptual dan divalidasi oleh para ahli?\n\n\n\n\n\n\n10.1.2 Detail Protokol Evaluasi per Lapisan (PICOC)\nBerikut adalah rincian penerapan kerangka PICOC (Population, Intervention, Comparison, Outcome, Context) pada setiap lapisan ASTF.\n\n10.1.2.1 Lapisan A: Aplikasi (Dampak Dunia Nyata)\nFokus pada pengukuran dampak akhir terhadap pembelajaran dan penciptaan nilai.\n\nP (Population): Mahasiswa sarjana teknik (n=135) yang terbagi dalam kelompok eksperimen (n=75) dan kontrol (n=60) @2 @5.\nI (Intervention): Implementasi penuh CKM-SE, termasuk Knowledge Marketplace, jalur belajar adaptif dari PUDAL, dan penilaian proyek berbasis rubrik PSKVE @36.\nC (Comparison): Kelompok kontrol yang mengikuti perkuliahan dengan metode konvensional (ceramah, tugas standar) tanpa akses ke fitur CKM-SE @47.\nO (Outcome):\n\nTransfer Pembelajaran: Peningkatan signifikan pada kemampuan menyelesaikan masalah baru (novel problem-solving), diukur dengan tes spesifik @38. Target: Ukuran efek Cohen’s d ≥ 0.80 @2 @7 @19.\nPenciptaan Nilai Bersama (VCC): Kuantitas dan kualitas artefak yang dihasilkan, diukur dengan VCC Index (berdasarkan rubrik PSKVE) dan tingkat penggunaan ulang artefak oleh angkatan berikutnya @1 @23 @35 @116.\nBerpikir Kritis: Kemampuan analisis, evaluasi, dan sintesis dalam skenario berbasis masalah @39.\n\nCx (Context): Mata kuliah inti rekayasa (misalnya, Probabilitas dan Statistika) selama satu semester penuh @2 @111 @135.\n\n\n\n10.1.2.2 Lapisan S: Sistem (Kualitas & Penerimaan Pengguna)\nFokus pada interaksi antara pengguna dan sistem secara keseluruhan.\n\nP (Population): Sampel mahasiswa dan dosen (n=20) yang berpartisipasi dalam usability testing dan pilot implementation @2 @12.\nI (Intervention): Penggunaan prototipe fungsional CKM-SE dalam tugas-tugas terstruktur selama 8 minggu @12.\nC (Comparison): Pengalaman menggunakan sistem pembelajaran (LMS) yang ada atau ekspektasi awal pengguna sebelum intervensi.\nO (Outcome):\n\nUsabilitas Sistem: Diukur dengan kuesioner standar System Usability Scale (SUS) @159. Target: Skor SUS ≥ 70 @2 @19.\nMotivasi Intrinsik: Diukur dengan Intrinsic Motivation Inventory (IMI) sebelum dan sesudah intervensi @2 @156. Target: Cohen’s d ≥ 0.80 @7.\nIdentitas Profesional: Diukur dengan skala Learning & Professional Identity in Practice (LPIPS) @137. Target: Cohen’s d ≥ 0.80 @7.\n\nCx (Context): Sesi uji coba terkontrol di laboratorium atau dalam lingkup satu mata kuliah percontohan @2 @12.\n\n\n\n10.1.2.3 Lapisan T: Teknologi (Kinerja Mesin Inti)\nFokus pada validasi komponen teknis internal CKM-SE.\n\nP (Population): Data log interaksi pengguna dan set data profil mahasiswa.\nI (Intervention): Pemrosesan data oleh PUDAL Engine dan PSKVE Engine.\nC (Comparison): Baseline atau hasil dari algoritma standar sebagai pembanding.\nO (Outcome):\n\nAkurasi Personalisasi (PUDAL): Tingkat akurasi dalam memprofilkan gaya belajar mahasiswa dan merekomendasikan jalur pembelajaran yang optimal @13. Target: Akurasi ≥ 85% @13.\nReliabilitas Penilaian (PSKVE): Konsistensi penilaian antar penilai (inter-rater reliability) pada rubrik VCC @35. Target: Cohen’s Kappa ≥ 0.75 @19 @35 @39.\n\nCx (Context): Lingkungan pengembangan dan pengujian sistem (staging environment).\n\n\n\n10.1.2.4 Lapisan F: Fundamental (Koherensi Teoretis)\nFokus pada validasi filosofi dan kerangka konseptual yang mendasari CKM-SE.\n\nP (Population): Panel ahli (n=6) di bidang rekayasa pendidikan, AI, dan psikologi kognitif @3.\nI (Intervention): Presentasi dan dokumentasi kerangka kerja konseptual TISE-VALORIZE.\nC (Comparison): Kerangka kerja pembelajaran cerdas yang sudah ada di literatur.\nO (Outcome):\n\nValiditas Konsep: Penilaian ahli mengenai kebaruan, koherensi, dan potensi dampak dari kerangka kerja @20. Target: Skor rata-rata ≥ 4.0 dari skala 5.0 @13 @20.\n\nCx (Context): Sesi validasi ahli melalui wawancara mendalam dan kuesioner terstruktur.\n\nDengan pendekatan evaluasi yang sistematis dan berlapis ini, kami memastikan bahwa setiap komponen dari CKM-SE, mulai dari filosofi dasarnya hingga dampaknya di kelas, diuji secara ketat dan transparan.",
+    "crumbs": [
+      "SK I",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Evaluasi Rancangan</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_jawab1_definisinilaidancontohyangdiacu.html",
+    "href": "valorize_jawab1_definisinilaidancontohyangdiacu.html",
+    "title": "11  Definisi Nilai dalam Konteks Pembelajaran Rekayasa",
+    "section": "",
+    "text": "11.0.1 1. Value-Oriented Education (VOE)\nModel pembelajaran VALORIZE/CKMS-SE secara fundamental berfokus pada pergeseran tujuan pendidikan dari penguasaan konten teknis (knowing) menuju pembentukan identitas profesional dan penciptaan nilai (becoming) [ @161 @210 @333 ].\nVOE adalah pendekatan pedagogis komprehensif yang melampaui pembelajaran akademik konvensional yang hanya berfokus pada transfer pengetahuan dan pencapaian kompetensi [ @122 @129 ].",
+    "crumbs": [
+      "SK I",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Definisi Nilai dalam Konteks Pembelajaran Rekayasa</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_jawab1_definisinilaidancontohyangdiacu.html#dimensi-dan-contoh-nilai-yang-diacu",
+    "href": "valorize_jawab1_definisinilaidancontohyangdiacu.html#dimensi-dan-contoh-nilai-yang-diacu",
+    "title": "11  Definisi Nilai dalam Konteks Pembelajaran Rekayasa",
+    "section": "11.1 Dimensi dan Contoh Nilai yang Diacu",
+    "text": "11.1 Dimensi dan Contoh Nilai yang Diacu\nDalam kerangka kerja CKM-SE, penciptaan nilai holistik diukur dan dikelola melalui PSKVE Engine [ @135 @102 @292 ]. PSKVE mengukur nilai melalui lima dimensi energi yang saling terkait [ @292 @293 @280 ]:\n\n\n\n\n\n\n\n\nDimensi\nFokus Pengukuran\nContoh Artefak Nilai dalam Probabilitas & Statistika\n\n\n\n\nP (Product)\nKapasitas kerja fisik, menghasilkan artefak nyata, ketepatan teknis, dan kualitas [ @280 @293 @76 ].\nToolkit Kontrol Proses Statistik (kode R, dokumentasi) yang bebas eror dan fungsional [ @79 @90 ].\n\n\nS (Service)\nKapasitas melayani dan memenuhi kebutuhan manusia hingga tercapai kepuasan; kegunaan praktis bagi orang lain [ @280 @293 @76 ].\nPenjelasan yang sangat jelas di forum, atau panduan langkah-demi-langkah (Peta Pengetahuan) yang dapat langsung diterapkan oleh rekan sejawat [ @151 @41 ].\n\n\nK (Knowledge)\nEnergi intelektual, kapasitas kreasi dan berbagi pengetahuan, dan kemampuan untuk digunakan kembali (reusability) [ @280 @293 @77 ].\nMetodologi analisis data yang dapat diadaptasi untuk konteks berbeda (misalnya, dari data kualitas air ke data risiko diabetes) [ @41 @81 @90 ].\n\n\nV (Value)\nKapasitas untuk merepresentasikan atau menukarkan nilai ekonomi, sosial, atau budaya; pengakuan komunitas [ @280 @293 @77 ].\nPengakuan dari komunitas (misalnya, perencana kota) bahwa temuan analisis layak digunakan untuk pengambilan keputusan [ @90 @77 ].\n\n\nE (Ethical/Environmental)\nDampak dan interaksi dengan sistem alam; pertimbangan etika dan fokus keberlanjutan [ @280 @293 @78 ].\nAnalisis data yang secara eksplisit membahas implikasi etika terhadap privasi data atau mempromosikan praktik berkelanjutan [ @14 @41 @92 ].\n\n\n\n\n11.1.1 Nilai Kemanusiaan Inti (Homocordium)\nSebagai pilar fundamental dari arsitektur TISE (Triune-Intelligence Smart Engineering), nilai-nilai kemanusiaan inti (Homocordium) berfungsi sebagai kompas moral yang memandu seluruh proses rekayasa [ @281 @294 @296 ]. Nilai-nilai ini meliputi:\n\nKemampuan Kognitif: Berpikir kritis, pemecahan masalah, kreativitas, dan sintesis [ @47 ].\nKecerdasan Emosional: Empati, regulasi emosi, dan keterampilan interpersonal [ @47 ].\nPenalaran Etis: Pengambilan keputusan berdasarkan nilai-nilai dan penilaian tentang benar dan salah [ @47 ].\nMotivasi Intrinsik: Keinginan untuk menciptakan nilai, berkontribusi pada masyarakat, dan belajar untuk menguasai [ @47 ].\nNilai Luhur: Integritas dan etika profesional sebagai fondasi utama pembelajaran VALORIZE [ @137 @138 @212 ].\n\nPenerapan nilai ini terlihat jelas dalam desain tugas, yang tidak hanya menanyakan “berapa confidence interval-nya?” tetapi juga “apa implikasi dari interval ini untuk decision-making?” dan “apakah ethical untuk menggunakan temuan statistik?” [ @14 ].",
+    "crumbs": [
+      "SK I",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Definisi Nilai dalam Konteks Pembelajaran Rekayasa</span>"
     ]
   },
   {
     "objectID": "valorize_publikasi.html",
     "href": "valorize_publikasi.html",
-    "title": "4  Publikasi & Diseminasi Riset",
+    "title": "12  Publikasi & Diseminasi Riset",
     "section": "",
-    "text": "4.1 📢 Konferensi Internasional (Conferences)\nBerikut adalah daftar publikasi ilmiah dan diseminasi yang telah dihasilkan dari perjalanan penelitian VALORIZE (CKM-SE), mulai dari tahap kualifikasi hingga pengembangan saat ini.",
+    "text": "12.1 Konferensi Internasional (Conferences)\nBerikut adalah daftar publikasi ilmiah dan diseminasi yang telah dihasilkan dari perjalanan penelitian VALORIZE (CKM-SE), mulai dari tahap kualifikasi hingga pengembangan saat ini.",
     "crumbs": [
       "Research Outputs",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Publikasi & Diseminasi Riset</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Publikasi & Diseminasi Riset</span>"
     ]
   },
   {
     "objectID": "valorize_publikasi.html#konferensi-internasional-conferences",
     "href": "valorize_publikasi.html#konferensi-internasional-conferences",
-    "title": "4  Publikasi & Diseminasi Riset",
+    "title": "12  Publikasi & Diseminasi Riset",
     "section": "",
-    "text": "4.1.1 Digital Transformation in Education, Research, and Community Service for Smart Campus\n\nPenulis: Meliana Christianti Johan, Armein Z. R. Langi, Radiant Victor Imbar\nForum: The 1st International Conference on Lifespan Innovation (ICLI 2025)\nLokasi/Waktu: Payap University, Thailand (12-13 Juni 2025)\nStatus: ✅ Presented & Published\nProsiding: Akses Prosiding (Atlantis Press)\n\n\n\n4.1.2 Personalized Learning Framework for Student-Centered Education in Higher Education\n\nForum: The 12th International Conference on ICT for Smart Society (ICISS 2025)\nLokasi/Waktu: Bandung, Indonesia (3-4 September 2025)\nStatus: ✅ Presented\nTautan: ICISS 2025 Website\n\n\n\n4.1.3 AI Integration in Personalized Collaborative Learning for Value-Oriented Higher Education\n\nSub-judul: An Architectural Plan and Preliminary Progress\nForum: The 12th International Conference on ICT for Smart Society (ICISS 2025)\nLokasi/Waktu: Bandung, Indonesia (3-4 September 2025)\nStatus: ✅ Presented\nTautan: ICISS 2025 Website",
+    "text": "12.1.1 Digital Transformation in Education, Research, and Community Service for Smart Campus\n\nPenulis: Meliana Christianti Johan, Armein Z. R. Langi, Radiant Victor Imbar\nForum: The 1st International Conference on Lifespan Innovation (ICLI 2025)\nLokasi/Waktu: Payap University, Thailand (12-13 Juni 2025)\nStatus: ✅ Presented & Published\nProsiding: Akses Prosiding (Atlantis Press)\n\n\n\n12.1.2 Personalized Learning Framework for Student-Centered Education in Higher Education\n\nForum: The 12th International Conference on ICT for Smart Society (ICISS 2025)\nLokasi/Waktu: Bandung, Indonesia (3-4 September 2025)\nStatus: ✅ Presented\nTautan: ICISS 2025 Website\n\n\n\n12.1.3 AI Integration in Personalized Collaborative Learning for Value-Oriented Higher Education\n\nSub-judul: An Architectural Plan and Preliminary Progress\nForum: The 12th International Conference on ICT for Smart Society (ICISS 2025)\nLokasi/Waktu: Bandung, Indonesia (3-4 September 2025)\nStatus: ✅ Presented\nTautan: ICISS 2025 Website",
     "crumbs": [
       "Research Outputs",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Publikasi & Diseminasi Riset</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Publikasi & Diseminasi Riset</span>"
     ]
   },
   {
     "objectID": "valorize_publikasi.html#jurnal-ilmiah-journals",
     "href": "valorize_publikasi.html#jurnal-ilmiah-journals",
-    "title": "4  Publikasi & Diseminasi Riset",
-    "section": "4.2 📝 Jurnal Ilmiah (Journals)",
-    "text": "4.2 📝 Jurnal Ilmiah (Journals)\n\n4.2.1 Analisis Filsafat Ilmu Pengetahuan dalam Transformasi Digital Tridharma Perguruan Tinggi Menuju Smart Campus\n\nJurnal: Jurnal Filsafat Indonesia (Sinta 3)\nStatus: ✅ Accepted (Diterima untuk Publikasi)\nTautan: Akses Jurnal\n\n\n\n4.2.2 Value co-creation through collaborative knowledge management in smart engineering education: An empirical validation of the TISE–VALORIZE framework\n\nJurnal: Global Journal of Engineering Education (GJEE) - Terindeks Scopus Q2\nStatus: 🔄 Submitted (Dalam Proses Review)\nFokus: Memaparkan arsitektur CKM-SE dan kerangka kerja TISE.\n\n\nCatatan: Daftar ini akan terus diperbarui seiring dengan berjalannya fase penelitian selanjutnya (SK II dan SK III).",
+    "title": "12  Publikasi & Diseminasi Riset",
+    "section": "12.2 Jurnal Ilmiah (Journals)",
+    "text": "12.2 Jurnal Ilmiah (Journals)\n\n12.2.1 Analisis Filsafat Ilmu Pengetahuan dalam Transformasi Digital Tridharma Perguruan Tinggi Menuju Smart Campus\n\nJurnal: Jurnal Filsafat Indonesia (Sinta 3)\nStatus: ✅ Accepted (Diterima untuk Publikasi)\nTautan: Akses Jurnal\n\n\n\n12.2.2 Value co-creation through collaborative knowledge management in smart engineering education: An empirical validation of the TISE–VALORIZE framework\n\nJurnal: Global Journal of Engineering Education (GJEE) - Terindeks Scopus Q2\nStatus: 🔄 Submitted (Dalam Proses Review)\nFokus: Memaparkan arsitektur CKM-SE dan kerangka kerja TISE.\n\n\nCatatan: Daftar ini akan terus diperbarui seiring dengan berjalannya fase penelitian selanjutnya (SK II dan SK III).",
     "crumbs": [
       "Research Outputs",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Publikasi & Diseminasi Riset</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Publikasi & Diseminasi Riset</span>"
     ]
   },
   {
     "objectID": "valorize_lampiranbuktiempiris1.html",
     "href": "valorize_lampiranbuktiempiris1.html",
-    "title": "5  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "title": "13  Lampiran Teknis: Metodologi & Perhitungan Statistik",
     "section": "",
-    "text": "5.1 1. Statistik Deskriptif (Descriptive Statistics)\nDokumen ini merinci asal-usul data dan prosedur perhitungan statistik yang digunakan untuk memvalidasi efektivitas kerangka kerja VALORIZE (CKM-SE). Analisis dilakukan menggunakan dataset nilai Ujian Tengah Semester (UTS) mata kuliah Probabilitas & Statistika (\\(N=143\\)).\nAngka-angka ini memberikan gambaran umum tentang pusat data (central tendency) dan sebarannya (dispersion) untuk setiap kelompok kelas.",
+    "text": "13.1 Statistik Deskriptif (Descriptive Statistics)\nDokumen ini merinci asal-usul data dan prosedur perhitungan statistik yang digunakan untuk memvalidasi efektivitas kerangka kerja VALORIZE (CKM-SE). Analisis dilakukan menggunakan dataset nilai Ujian Tengah Semester (UTS) mata kuliah Probabilitas & Statistika (\\(N=143\\)).\nAngka-angka ini memberikan gambaran umum tentang pusat data (central tendency) dan sebarannya (dispersion) untuk setiap kelompok kelas.",
     "crumbs": [
       "Lampiran",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
     ]
   },
   {
     "objectID": "valorize_lampiranbuktiempiris1.html#statistik-deskriptif-descriptive-statistics",
     "href": "valorize_lampiranbuktiempiris1.html#statistik-deskriptif-descriptive-statistics",
-    "title": "5  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "title": "13  Lampiran Teknis: Metodologi & Perhitungan Statistik",
     "section": "",
-    "text": "5.1.1 A. Rata-rata Skor (Mean)\nDihitung dengan menjumlahkan seluruh nilai mahasiswa dalam satu kelas, dibagi dengan jumlah mahasiswa (\\(N\\)).\n\nRumus: \\(\\bar{x} = \\frac{\\sum x_i}{N}\\)\nPerhitungan:\n\nK1 (Kontrol 1): Total Skor \\(775 \\div 35\\) Mahasiswa = 22.14\nK2 (Intervensi): Total Skor \\(1.396 \\div 56\\) Mahasiswa = 24.93\nK3 (Kontrol 2): Total Skor \\(1.770 \\div 52\\) Mahasiswa = 34.04\n\n\n\n\n5.1.2 B. Standar Deviasi (Standard Deviation)\nMengukur seberapa jauh variasi nilai mahasiswa dari rata-rata kelasnya.\n\nK1 (\\(SD=12.35\\)): Variasi nilai tinggi (kemampuan mahasiswa sangat beragam/timpang).\nK2 (\\(SD=12.55\\)): Variasi nilai tinggi.\nK3 (\\(SD=9.92\\)): Variasi nilai paling rendah.\n\nInterpretasi: Nilai mahasiswa di kelas K3 lebih “seragam” dan konsisten di angka tinggi, menunjukkan metode pengajaran berhasil merata ke hampir seluruh mahasiswa.",
+    "text": "13.1.1 Rata-rata Skor (Mean)\nDihitung dengan menjumlahkan seluruh nilai mahasiswa dalam satu kelas, dibagi dengan jumlah mahasiswa (\\(N\\)).\n\nRumus: \\(\\bar{x} = \\frac{\\sum x_i}{N}\\)\nPerhitungan:\n\nK1 (Kontrol 1): Total Skor \\(775 \\div 35\\) Mahasiswa = 22.14\nK2 (Intervensi): Total Skor \\(1.396 \\div 56\\) Mahasiswa = 24.93\nK3 (Kontrol 2): Total Skor \\(1.770 \\div 52\\) Mahasiswa = 34.04\n\n\n\n\n13.1.2 Standar Deviasi (Standard Deviation)\nMengukur seberapa jauh variasi nilai mahasiswa dari rata-rata kelasnya.\n\nK1 (\\(SD=12.35\\)): Variasi nilai tinggi (kemampuan mahasiswa sangat beragam/timpang).\nK2 (\\(SD=12.55\\)): Variasi nilai tinggi.\nK3 (\\(SD=9.92\\)): Variasi nilai paling rendah.\n\nInterpretasi: Nilai mahasiswa di kelas K3 lebih “seragam” dan konsisten di angka tinggi, menunjukkan metode pengajaran berhasil merata ke hampir seluruh mahasiswa.",
     "crumbs": [
       "Lampiran",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
     ]
   },
   {
     "objectID": "valorize_lampiranbuktiempiris1.html#uji-signifikansi-one-way-anova",
     "href": "valorize_lampiranbuktiempiris1.html#uji-signifikansi-one-way-anova",
-    "title": "5  Lampiran Teknis: Metodologi & Perhitungan Statistik",
-    "section": "5.2 2. Uji Signifikansi: One-Way ANOVA",
-    "text": "5.2 2. Uji Signifikansi: One-Way ANOVA\nUji ini menjawab pertanyaan: “Apakah perbedaan rata-rata antar kelas ini nyata atau hanya kebetulan?”\n\nF-Statistic (\\(F\\)): 13.34\n\nAngka ini adalah rasio antara variasi antar-kelompok (perbedaan method) dibagi variasi dalam-kelompok (perbedaan individu). Semakin tinggi nilai F, semakin besar dampak metode pengajaran dibanding faktor individu.\n\nP-Value (\\(p\\)): \\(4.96 \\times 10^{-6}\\) (&lt; 0.001)\n\nNilai probabilitas kesalahan hampir nol.\nKesimpulan: Kita memiliki keyakinan &gt;99.9% bahwa perbedaan hasil belajar ini signifikan secara statistik dan bukan disebabkan oleh faktor acak.",
+    "title": "13  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "section": "13.2 Uji Signifikansi: One-Way ANOVA",
+    "text": "13.2 Uji Signifikansi: One-Way ANOVA\nUji ini menjawab pertanyaan: “Apakah perbedaan rata-rata antar kelas ini nyata atau hanya kebetulan?”\n\nF-Statistic (\\(F\\)): 13.34\n\nAngka ini adalah rasio antara variasi antar-kelompok (perbedaan method) dibagi variasi dalam-kelompok (perbedaan individu). Semakin tinggi nilai F, semakin besar dampak metode pengajaran dibanding faktor individu.\n\nP-Value (\\(p\\)): \\(4.96 \\times 10^{-6}\\) (&lt; 0.001)\n\nNilai probabilitas kesalahan hampir nol.\nKesimpulan: Kita memiliki keyakinan &gt;99.9% bahwa perbedaan hasil belajar ini signifikan secara statistik dan bukan disebabkan oleh faktor acak.",
     "crumbs": [
       "Lampiran",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
     ]
   },
   {
     "objectID": "valorize_lampiranbuktiempiris1.html#analisis-lanjut-post-hoc-tukey-hsd",
     "href": "valorize_lampiranbuktiempiris1.html#analisis-lanjut-post-hoc-tukey-hsd",
-    "title": "5  Lampiran Teknis: Metodologi & Perhitungan Statistik",
-    "section": "5.3 3. Analisis Lanjut: Post-hoc Tukey HSD",
-    "text": "5.3 3. Analisis Lanjut: Post-hoc Tukey HSD\nSetelah ANOVA menyatakan “ada beda”, uji Tukey menentukan “siapa beda dengan siapa” dengan menghitung selisih rata-rata (\\(\\Delta Mean\\)).\n\n\n\n\n\n\n\n\n\nPerbandingan\nPerhitungan (\\(\\Delta Mean\\))\nHasil\nInterpretasi\n\n\n\n\nK2 vs K1\n\\(24.93 - 22.14 = \\mathbf{+2.79}\\)\nTidak Signifikan (\\(p&gt;0.05\\))\nIntervensi awal (K2) mulai menunjukkan tren positif dibanding baseline terendah, meski belum drastis.\n\n\nK3 vs K2\n\\(34.04 - 24.93 = \\mathbf{+9.11}\\)\nSignifikan (\\(p&lt;0.001\\))\nTerdapat gap performa yang nyata antara Kontrol Unggulan (K3) dengan Intervensi (K2).",
+    "title": "13  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "section": "13.3 Analisis Lanjut: Post-hoc Tukey HSD",
+    "text": "13.3 Analisis Lanjut: Post-hoc Tukey HSD\nSetelah ANOVA menyatakan “ada beda”, uji Tukey menentukan “siapa beda dengan siapa” dengan menghitung selisih rata-rata (\\(\\Delta Mean\\)).\n\n\n\n\n\n\n\n\n\nPerbandingan\nPerhitungan (\\(\\Delta Mean\\))\nHasil\nInterpretasi\n\n\n\n\nK2 vs K1\n\\(24.93 - 22.14 = \\mathbf{+2.79}\\)\nTidak Signifikan (\\(p&gt;0.05\\))\nIntervensi awal (K2) mulai menunjukkan tren positif dibanding baseline terendah, meski belum drastis.\n\n\nK3 vs K2\n\\(34.04 - 24.93 = \\mathbf{+9.11}\\)\nSignifikan (\\(p&lt;0.001\\))\nTerdapat gap performa yang nyata antara Kontrol Unggulan (K3) dengan Intervensi (K2).",
     "crumbs": [
       "Lampiran",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
     ]
   },
   {
     "objectID": "valorize_lampiranbuktiempiris1.html#ukuran-dampak-effect-size-cohens-d",
     "href": "valorize_lampiranbuktiempiris1.html#ukuran-dampak-effect-size-cohens-d",
-    "title": "5  Lampiran Teknis: Metodologi & Perhitungan Statistik",
-    "section": "5.4 4. Ukuran Dampak (Effect Size): Cohen’s d",
-    "text": "5.4 4. Ukuran Dampak (Effect Size): Cohen’s d\nMetrik ini adalah standar emas dalam riset pendidikan untuk mengukur seberapa kuat dampak sebuah intervensi, terlepas dari jumlah sampelnya.\nRumus: \\(d = \\frac{\\bar{x}_1 - \\bar{x}_2}{SD_{pooled}}\\)\n\n5.4.1 A. Dampak Intervensi terhadap Baseline (K2 vs K1)\n\nSelisih Rata-rata: \\(2.79\\)\nStandar Deviasi Gabungan (\\(SD_{pooled}\\)): \\(\\approx 12.45\\)\nPerhitungan: \\(2.79 \\div 12.45 = \\mathbf{0.22}\\)\nKategori: Small Effect (Dampak Kecil).\nMakna: Metode kolaboratif di K2 memberikan dampak positif awal, namun masih perlu dioptimalkan.\n\n\n\n5.4.2 B. Perbandingan dengan Performa Puncak (K3 vs K2)\n\nSelisih Rata-rata: \\(9.11\\)\nStandar Deviasi Gabungan (\\(SD_{pooled}\\)): \\(\\approx 11.3\\)\nPerhitungan: \\(9.11 \\div 11.3 = \\mathbf{0.80}\\)\nKategori: Large Effect (Dampak Besar).\nMakna: Perbedaan antara kelas K3 dan K2 sangat tajam. Ini menjadi temuan penting untuk evaluasi selanjutnya: faktor apa di K3 (apakah input mahasiswa atau metode instruktur) yang menyebabkan skor sangat tinggi ini?\n\n\nRingkasan Akhir: Analisis data membuktikan bahwa penerapan awal VALORIZE (K2) berhasil mengangkat performa di atas batas bawah (baseline) kelas konvensional (K1). Namun, tantangan berikutnya adalah meningkatkan efektivitasnya agar dapat menyamai atau melampaui performa kelas unggulan (K3).",
+    "title": "13  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "section": "13.4 Ukuran Dampak (Effect Size): Cohen’s d",
+    "text": "13.4 Ukuran Dampak (Effect Size): Cohen’s d\nMetrik ini adalah standar emas dalam riset pendidikan untuk mengukur seberapa kuat dampak sebuah intervensi, terlepas dari jumlah sampelnya.\nRumus: \\(d = \\frac{\\bar{x}_1 - \\bar{x}_2}{SD_{pooled}}\\)\n\n13.4.1 Dampak Intervensi terhadap Baseline (K2 vs K1)\n\nSelisih Rata-rata: \\(2.79\\)\nStandar Deviasi Gabungan (\\(SD_{pooled}\\)): \\(\\approx 12.45\\)\nPerhitungan: \\(2.79 \\div 12.45 = \\mathbf{0.22}\\)\nKategori: Small Effect (Dampak Kecil).\nMakna: Metode kolaboratif di K2 memberikan dampak positif awal, namun masih perlu dioptimalkan.\n\n\n\n13.4.2 Perbandingan dengan Performa Puncak (K3 vs K2)\n\nSelisih Rata-rata: \\(9.11\\)\nStandar Deviasi Gabungan (\\(SD_{pooled}\\)): \\(\\approx 11.3\\)\nPerhitungan: \\(9.11 \\div 11.3 = \\mathbf{0.80}\\)\nKategori: Large Effect (Dampak Besar).\nMakna: Perbedaan antara kelas K3 dan K2 sangat tajam. Ini menjadi temuan penting untuk evaluasi selanjutnya: faktor apa di K3 (apakah input mahasiswa atau metode instruktur) yang menyebabkan skor sangat tinggi ini?\n\n\nRingkasan Akhir: Analisis data membuktikan bahwa penerapan awal VALORIZE (K2) berhasil mengangkat performa di atas batas bawah (baseline) kelas konvensional (K1). Namun, tantangan berikutnya adalah meningkatkan efektivitasnya agar dapat menyamai atau melampaui performa kelas unggulan (K3).",
     "crumbs": [
       "Lampiran",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
     ]
   },
   {
-    "objectID": "valorize_lampirankementrian.html",
-    "href": "valorize_lampirankementrian.html",
-    "title": "6  Kementrian Pendidikan Tinggi, Sains, dan Teknologi",
+    "objectID": "valorize_glosarium.html",
+    "href": "valorize_glosarium.html",
+    "title": "14  Glosarium",
     "section": "",
-    "text": "Link Kemdiktisaintek Klik Disini.\nPendidikan Tinggi, Sains dan Teknologi, memegang peran kunci dalam mewujudkan Indonesia Emas 2045. Kita perlu membangun sistem pendidikan tinggi yang berkeadilan, relevan, dan berdampak. Transformasi ini harus mampu membuka akses seluas mungkin dengan kualitas yang setara di seluruh Indonesia. Diktisaintek Berdampak adalah gerakan nasional untuk mewujudkan hal itu",
+    "text": "Memahami Bahasa Inovasi * CKM-SE (Collaborative Knowledge Management System-Smart Engineering): Cetak biru operasional dan artefak cerdas yang mengimplementasikan filosofi TISE-VALORIZE.\n\nHomocordium: Pilar TISE yang merepresentasikan kecerdasan manusia: etika, kreativitas, nilai, dan kebijaksanaan. Kompas moral sistem.\nPUDAL Engine: Mesin kognitif berbasis AI yang mempersonalisasi jalur belajar secara dinamis (Perceive, Understand, Decision-Making, Act-Response, Learning-Evaluating).\nPSKVE Engine: Mesin manajemen nilai yang mengukur kontribusi holistik dalam 5 dimensi (Product, Service, Knowledge, Value, Environmental).\nTISE (Triune-Intelligence Smart Engineering): Paradigma rekayasa yang menyeimbangkan Kecerdasan Manusia (Homocordium), Buatan (Homologos), dan Alamiah.\nVALORIZE: Kerangka pedagogis inti yang berfokus pada pembentukan identitas profesional (becoming) melalui simulasi, Peta Pengetahuan, dan Knowledge Marketplace.\nVCC (Value Co-Creation): Proses di mana nilai diciptakan secara kolaboratif oleh semua pemangku kepentingan (mahasiswa, dosen, komunitas), bukan hanya ditransfer dari dosen ke mahasiswa.\nVOE (Value-Oriented Education): Pendekatan pendidikan yang menempatkan penciptaan nilai sebagai tujuan utamanya, melampaui pencapaian akademik semata.",
     "crumbs": [
       "Lampiran",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Kementrian Pendidikan Tinggi, Sains, dan Teknologi</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Glosarium</span>"
     ]
   },
   {
     "objectID": "valorize_support.html",
     "href": "valorize_support.html",
-    "title": "7  Acknowledgment",
+    "title": "15  Acknowledgment",
     "section": "",
     "text": "Penelitian ini didukung oleh hibah Riset Kolaborasi Indonesia (RKI) - Prioritas Riset Nasional (PRN) 2025.",
     "crumbs": [
       "Acknowledgement",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Acknowledgment</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Acknowledgment</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_lampirankementrian.html",
+    "href": "valorize_lampirankementrian.html",
+    "title": "16  Kementrian Pendidikan Tinggi, Sains, dan Teknologi",
+    "section": "",
+    "text": "Link Kemdiktisaintek Klik Disini.\nPendidikan Tinggi, Sains dan Teknologi, memegang peran kunci dalam mewujudkan Indonesia Emas 2045. Kita perlu membangun sistem pendidikan tinggi yang berkeadilan, relevan, dan berdampak. Transformasi ini harus mampu membuka akses seluas mungkin dengan kualitas yang setara di seluruh Indonesia. Diktisaintek Berdampak adalah gerakan nasional untuk mewujudkan hal itu",
+    "crumbs": [
+      "Acknowledgement",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Kementrian Pendidikan Tinggi, Sains, dan Teknologi</span>"
     ]
   }
 ]
