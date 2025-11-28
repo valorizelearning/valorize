@@ -11,32 +11,51 @@ book:
   sharing: [twitter, facebook]
   chapters:
     - index.md
+    - part: Ide Dasar
+      chapters:
+      - vjawaba1_definisinilaidancontohnilaiyangdiacu.ipynb
+      - vjawaba3_rekayasacerdas_ckm.ipynb
+      - vjawaba4_alasansistemsekarangbelummencapaiharapan.ipynb
+      - vjawaba5_dampakyangdiharapkandarifw.ipynb
+      - vjawaba6_ujicobadanketerlibatan.ipynb
+      - vjawaba7_posisiengineeringdidsrm.ipynb
+      - vjawaba8_luaran.ipynb
+      - vjawaba9_kooperatif.ipynb
+      - vjawaba10_batasanpenelitian.ipynb
+      - vjawaba11_pengukurankinerja.ipynb
+      - vjawaba13_spesifikasievaluasirancangan.ipynb
+      - vjawaba14_cotohnyata.ipynb
     - part: Konsep
       chapters:
         - valorize_introduction.ipynb
-        - valorize_masalahpenelitian.ipynb
+        - valorize_jawab4_masalahpenelitian.ipynb
         - valorize_researchgap.ipynb
         - valorize_solusi.ipynb
         - valorize_buktiempiris1.ipynb        
         - valorize_visijangkapanjang.ipynb
-        - valorize_content1.ipynb
+        - valorize_jawab1_definisinilaidancontohyangdiacu.ipynb
+        - valorize_jawab5_impact.ipynb
+        - valorize_jawab7_engineering.ipynb
+        - valorize_jawab8_pedoman.ipynb
+        - valorize_jawab9_vscooperative.ipynb
+        - valorize_jawab10_batasan.ipynb
+        - valorize_jawab11_pengukurankinerja.ipynb
     - part: Metodologi dan Validasi
       chapters:
         - valorize_metodologidanvalidasi.ipynb
+        - valorize_jawab6_pengujian.ipynb
+        - valorize_jawab12_adaptasidsrm.ipynb
+        - valorize_jawab013_evaluasirancangan.ipynb
     - part: Studi Kasus
       chapters:
-        - valorize_studikasus.ipynb
-    - part: SK I
-      chapters:
-        - valorize_jawab0_evaluasirancangan.ipynb
-        - valorize_jawab1_definisinilaidancontohyangdiacu.ipynb
+        - valorize_jawab14_studikasus.ipynb
     - part: Research Outputs
       chapters:
         - valorize_publikasi.ipynb
     - part: Lampiran
       chapters:
         - valorize_lampiranbuktiempiris1.ipynb
-        - valorize_glosarium.ipynb
+        - valorize_jawab3_glosarium.ipynb
     - part: Acknowledgement
       chapters:
         - valorize_support.ipynb

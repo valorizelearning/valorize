@@ -20,3 +20,5 @@ Secara umum, artinya adalah memberikan nilai atau menetapkan nilai pada sesuatu.
 Dalam konteks pendidikan, VALORIZE berarti mengakui, mengembangkan, dan merealisasikan potensi yang ada menjadi nilai nyata yang dapat diukur.
 :::
 
+Inilah VALORIZE: Pendidikan yang memanusiakan, mempersonalisasi, dan memberdayakan mahasiswa menjadi pencipta nilai nyata.
+
