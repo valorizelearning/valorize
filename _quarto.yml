@@ -16,10 +16,14 @@ book:
         - valorize_introduction.ipynb
         - valorize_buktiempiris1.ipynb
         - valorize_content1.ipynb
+    - part: Research Outputs
+      chapters:
+        - valorize_publikasi.ipynb
     - part: Lampiran
       chapters:
         - valorize_lampiranbuktiempiris1.ipynb
-    - part: Support
+        - valorize_lampirankementrian.ipynb
+    - part: Acknowledgement
       chapters:
         - valorize_support.ipynb
 
