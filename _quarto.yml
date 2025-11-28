@@ -4,14 +4,14 @@ project:
   
 book:
   title: VALORIZE
-  author: Meliana - 2025
+  author: Tim Penelitian - 2025
   repo-url: https://github.com/uwdata/visualization-curriculum
   repo-branch: master
   repo-actions: [issue]
   sharing: [twitter, facebook]
   chapters:
     - index.md
-    - part: Curriculum
+    - part: Konsep
       chapters:
         - valorize_introduction.ipynb
         - valorize_content1.ipynb

@@ -16,7 +16,7 @@
     "section": "",
     "text": "1.1 VALORIZE LEARNING: Where Value is Realized!\nValorize\nKerangka pembelajaran transformatif yang mengintegrasikan Value (nilai), Collaboration (kolaborasi), Artificial Intelligence (Kecerdasan Buatan), dan Personalized Learning (Pembelajaran yang dipersonalisasi) untuk menciptakan pembelajaran yang bermakna (Value Co-Creation) dalam konteks pendidikan berorientasi nilai (Value Oriented Education).",
     "crumbs": [
-      "Curriculum",
+      "Konsep",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
     ]
   },
@@ -25,9 +25,64 @@
     "href": "valorize_introduction.html#visi-misi",
     "title": "1  Introduction to Valorize",
     "section": "1.2 Visi Misi",
-    "text": "1.2 Visi Misi\n\n1.2.1 Visi\nMenjadi kerangka kerja pembelajaran transformatif yang mengakui, mengembangkan, dan merealisasikan potensi peserta didik menjadi kompetensi profesional yang autentik.\n\n\n1.2.2 Misi\nMemfasilitasi transformasi peserta didik dari konsumen pengetahuan pasif menjadi produsen nilai aktif melalui: Kolaborasi bermakna dalam Knowledge Marketplace berbasis peer production Pembelajaran berbasis proyek autentik yang relevan dengan kebutuhan profesional Pengembangan identitas profesional yang kuat dan adaptif.\nKomponen inti framework:\n\nVALue (Nilai-nilai luhur sebagai fondasi)\nOrganized through CollaRation (Pembelajaran kolaboratif terorganisir)\nIntelligence (Kecerdasan Buatan sebagai enabler)\nZones of PersonalIzed & Zenith Education (Zona pembelajaran personal menuju puncak potensi)",
+    "text": "1.2 Visi Misi\n\n1.2.1 Visi\nMenjadi kerangka kerja pembelajaran transformatif yang mengakui, mengembangkan, dan merealisasikan potensi peserta didik menjadi kompetensi profesional yang autentik.\n\n\n1.2.2 Misi\nMemfasilitasi transformasi peserta didik dari konsumen pengetahuan pasif menjadi produsen nilai aktif melalui: Kolaborasi bermakna dalam “Knowledge Marketplace” berbasis peer production Pembelajaran berbasis proyek yang relevan dengan kebutuhan profesional dalam mengembangkan identitas profesional yang kuat dan adaptif.",
     "crumbs": [
-      "Curriculum",
+      "Konsep",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_introduction.html#empat-pilar-utama-valorize-framework",
+    "href": "valorize_introduction.html#empat-pilar-utama-valorize-framework",
+    "title": "1  Introduction to Valorize",
+    "section": "1.3 Empat Pilar Utama VALORIZE Framework",
+    "text": "1.3 Empat Pilar Utama VALORIZE Framework\n\nValue (Nilai - Nilai-nilai luhur sebagai fondasi): Fokus pada penciptaan nilai, bukan sekedar penyelesaian tugas.\nCollaboration (Kolaborasi): Pembelajaran terjadi melalui interaksi sosial dan pertukaran pengetahuan.\nArtificial Intelligence (Kecerdasan buatan - sebagai enabler): Pemandaatan AI sebagai “pengganda kekuatan” (force multiplier).\nPersonalized (Personalisasi): Pembelajaran yang disesuaikan dengan kebutuhan individu. Ini merupakan zona pembelajaran personal menuju puncak potensi.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_introduction.html#filosofi-utama-pergeseran-paradigma",
+    "href": "valorize_introduction.html#filosofi-utama-pergeseran-paradigma",
+    "title": "1  Introduction to Valorize",
+    "section": "1.4 Filosofi Utama: Pergeseran Paradigma",
+    "text": "1.4 Filosofi Utama: Pergeseran Paradigma\nKerangka kerja ini dirancang untuk mengubah engineering education secara fundamental dari “Knowing” ke “Becoming”. Saat ini, pendidikan konvensional berfokus pada penguasaan materi (content mastery). Sedangkan Valorize menambahkan fokus pada pembentukan identitas profesional (sosok, karakter, dan pola pikir engineer).",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_introduction.html#tiga-komponen-inti-mekanisme",
+    "href": "valorize_introduction.html#tiga-komponen-inti-mekanisme",
+    "title": "1  Introduction to Valorize",
+    "section": "1.5 Tiga Komponen Inti (Mekanisme)",
+    "text": "1.5 Tiga Komponen Inti (Mekanisme)\nAgar filosofi tersebut bisa berjalan, VALORAIZE menggunakan tiga mekanisme utama:\n\nKnowledge Maps (Peta Pengetahuan):\n\nAlat kognitif untuk memetakan pemikiran ahli.\nTerdiri dari Peta Primitif (untuk konsep dasar/deklaratif) dan Peta Pemecahan Masalah (untuk strategi/prosedural seperti memilih “rute” dan “kendaraan” penyelesaian masalah).\n\nKnowledge Marketplace (Pasar Pengetahuan):\n\nSistem penilaian yang digamifikasi. Dosen “mengiklankan” kebutuhan, mahasiswa membuat artefak (tugas/karya), dan jika berkualitas, karya itu “dibeli” menggunakan mata uang digital (Poin Uang, Emas, Platinum, Berlian) sesuai level kognitif Taksonomi Bloom.\nKarya yang dibeli dipublikasikan menjadi aset belajar bagi angkatan berikutnya (Knowledge Reuse).\n\nSocratic AI Coaching:\n\nAI digunakan bukan untuk memberi jawaban, tetapi sebagai tutor yang memberikan scaffolding (bantuan bertahap) dan pertanyaan pancingan untuk melatih metakognisi mahasiswa.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_introduction.html#arsitektur-teknis-ckm-se-tise",
+    "href": "valorize_introduction.html#arsitektur-teknis-ckm-se-tise",
+    "title": "1  Introduction to Valorize",
+    "section": "1.6 Arsitektur Teknis: CKM-SE & TISE",
+    "text": "1.6 Arsitektur Teknis: CKM-SE & TISE\nSecara teknis, VALORAIZE dijalankan di atas platform yang disebut CKM-SE (Collaborative Knowledge Management System - Smart Engineering). Sistem ini dibangun di atas paradigma TISE (Triune-Intelligence Smart Engineering) yang menyeimbangkan tiga kecerdasan: manusia, buatan, dan alam.\nDi dalam CKM-SE, terdapat dua “mesin” penggerak utama:\n\nPUDAL Engine (Perceive, Understand, Decision, Act, Learn): Mesin AI yang menangani personalisasi (menyesuaikan materi dengan gaya belajar siswa).\nPSKVE Engine (Product, Service, Knowledge, Value, Environmental): Mesin yang mengelola dan mengukur penciptaan nilai (Value Co-Creation) secara multidimensi.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_introduction.html#tujuan-akhir-value-co-creation-vcc",
+    "href": "valorize_introduction.html#tujuan-akhir-value-co-creation-vcc",
+    "title": "1  Introduction to Valorize",
+    "section": "1.7 Tujuan Akhir: Value Co-Creation (VCC)",
+    "text": "1.7 Tujuan Akhir: Value Co-Creation (VCC)\nTujuan akhir dari VALORAIZE adalah Penciptaan Nilai Bersama (VCC). Mahasiswa tidak dianggap sebagai konsumen ilmu yang pasif, tetapi sebagai produsen pengetahuan yang aktif. Mereka menciptakan artefak (solusi, laporan, kode) yang memiliki nilai guna bagi komunitas, bukan hanya sekadar untuk mendapatkan nilai huruf di transkrip.\nKesimpulan Singkat: Dalam dokumen ini, VALORAIZE adalah sebuah solusi pendidikan komprehensif di era AI yang menggabungkan teknologi cerdas, kolaborasi pasar pengetahuan, dan pembelajaran personal untuk mencetak lulusan yang memiliki identitas profesional dan mampu menciptakan nilai nyata, bukan sekadar menghafal teori.",
+    "crumbs": [
+      "Konsep",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Valorize</span>"
     ]
   },
@@ -38,7 +93,7 @@
     "section": "",
     "text": "Coming soon!",
     "crumbs": [
-      "Curriculum",
+      "Konsep",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Content1</span>"
     ]
   },
