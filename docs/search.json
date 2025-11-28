@@ -58,7 +58,7 @@
     "href": "valorize_introduction.html#tiga-komponen-inti-mekanisme",
     "title": "1  Introduction to VALORIZE",
     "section": "1.5 Tiga Komponen Inti (Mekanisme)",
-    "text": "1.5 Tiga Komponen Inti (Mekanisme)\nAgar filosofi tersebut bisa berjalan, VALORIZE menggunakan tiga mekanisme utama:\n\nKnowledge Maps (Peta Pengetahuan):\n\nAlat kognitif untuk memetakan pemikiran ahli.\nTerdiri dari Peta Primitif (untuk konsep dasar/deklaratif) dan Peta Pemecahan Masalah (untuk strategi/prosedural seperti memilih “rute” dan “kendaraan” penyelesaian masalah).\n\nKnowledge Marketplace (Pasar Pengetahuan):\n\nSistem penilaian yang digamifikasi. Dosen “mengiklankan” kebutuhan, mahasiswa membuat artefak (tugas/karya), dan jika berkualitas, karya itu “dibeli” menggunakan mata uang digital (Poin Uang, Emas, Platinum, Berlian) sesuai level kognitif Taksonomi Bloom.\nKarya yang dibeli dipublikasikan menjadi aset belajar bagi angkatan berikutnya (Knowledge Reuse).\n\nSocratic AI Coaching:\n\nAI digunakan bukan untuk memberi jawaban, tetapi sebagai tutor yang memberikan scaffolding (bantuan bertahap) dan pertanyaan pancingan untuk melatih metakognisi mahasiswa.",
+    "text": "1.5 Tiga Komponen Inti (Mekanisme)\nAgar filosofi tersebut bisa berjalan, VALORIZE menggunakan tiga mekanisme utama:\n\nKnowledge Maps (Peta Pengetahuan):\n\nAlat kognitif untuk memetakan pemikiran ahli.\nTerdiri dari Peta Primitif (untuk konsep dasar/deklaratif) dan Peta Pemecahan Masalah (untuk strategi/prosedural seperti memilih “rute” dan “kendaraan” penyelesaian masalah).\n\nKnowledge Marketplace (Pasar Pengetahuan):\n\nSistem penilaian yang digamifikasi. Dosen “mengiklankan” kebutuhan, mahasiswa membuat artefak (tugas/karya), dan jika berkualitas, karya itu “dibeli” menggunakan mata uang digital (Poin Uang, Emas, Platinum, Berlian) sesuai level kognitif Taksonomi Bloom.\nKarya yang dibeli dipublikasikan menjadi aset belajar bagi angkatan berikutnya (Knowledge Reuse).\nSistem Mata Uang Digital (Cognitive Currency) Dalam ekosistem Knowledge Marketplace, karya mahasiswa tidak dinilai dengan angka biasa, melainkan “dibeli” menggunakan mata uang digital berjenjang yang dipetakan langsung ke Taksonomi Bloom:\n  🪙 Point Uang (Money Points): Untuk level Mengingat dan Memahami (C1-C2). Diberikan untuk artefak dasar seperti Peta Pengetahuan Primitif.\n  🥇 Point Emas (Gold Points): Untuk level Menerapkan (C3). Diberikan untuk pemecahan masalah standar.\n  💎 Point Platinum & Berlian: Untuk level Menganalisis, Mengevaluasi, dan Mencipta (C4-C6). Diberikan untuk solusi orisinal, sintesis kompleks, atau inovasi baru.\nSistem ini memastikan bahwa penghargaan (reward) selaras dengan kedalaman kognitif yang dicapai mahasiswa.\n\nSocratic AI Coaching:\n\nAI digunakan bukan untuk memberi jawaban, tetapi sebagai tutor yang memberikan scaffolding (bantuan bertahap) dan pertanyaan pancingan untuk melatih metakognisi mahasiswa.",
     "crumbs": [
       "Konsep",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to VALORIZE</span>"
@@ -98,11 +98,22 @@
     ]
   },
   {
+    "objectID": "valorize_introduction.html#transformasi-peran-new-roles",
+    "href": "valorize_introduction.html#transformasi-peran-new-roles",
+    "title": "1  Introduction to VALORIZE",
+    "section": "1.9 Transformasi Peran (New Roles)",
+    "text": "1.9 Transformasi Peran (New Roles)\nVALORIZE meredefinisi hubungan antara dosen dan mahasiswa dari hierarki tradisional menjadi kemitraan profesional:\n\n\n\n\n\n\n\nPeran Konvensional\nPeran di Ekosistem VALORIZE\n\n\n\n\nDosen sebagai Penyampai Informasi\nDosen sebagai Demand Creator (Pencipta Permintaan) & Learning Architect (Perancang Sistem). Dosen bertindak seperti klien atau manajer senior yang menetapkan standar kualitas.\n\n\nMahasiswa sebagai Konsumen Pasif\nMahasiswa sebagai Value Creator (Pencipta Nilai) & Knowledge Producer. Mahasiswa bertindak seperti profesional junior yang memberikan solusi (artefak) atas permintaan klien.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to VALORIZE</span>"
+    ]
+  },
+  {
     "objectID": "valorize_introduction.html#tujuan-akhir-value-co-creation-vcc",
     "href": "valorize_introduction.html#tujuan-akhir-value-co-creation-vcc",
     "title": "1  Introduction to VALORIZE",
-    "section": "1.9 Tujuan Akhir: Value Co-Creation (VCC)",
-    "text": "1.9 Tujuan Akhir: Value Co-Creation (VCC)\nTujuan akhir dari VALORIZE adalah Penciptaan Nilai Bersama (VCC). Mahasiswa tidak dianggap sebagai konsumen ilmu yang pasif, tetapi sebagai produsen pengetahuan yang aktif. Mereka menciptakan artefak (solusi, laporan, kode) yang memiliki nilai guna bagi komunitas, bukan hanya sekadar untuk mendapatkan nilai huruf di transkrip.",
+    "section": "1.10 Tujuan Akhir: Value Co-Creation (VCC)",
+    "text": "1.10 Tujuan Akhir: Value Co-Creation (VCC)\nTujuan akhir dari VALORIZE adalah Penciptaan Nilai Bersama (VCC). Mahasiswa tidak dianggap sebagai konsumen ilmu yang pasif, tetapi sebagai produsen pengetahuan yang aktif. Mereka menciptakan artefak (solusi, laporan, kode) yang memiliki nilai guna bagi komunitas, bukan hanya sekadar untuk mendapatkan nilai huruf di transkrip.",
     "crumbs": [
       "Konsep",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to VALORIZE</span>"
@@ -112,8 +123,8 @@
     "objectID": "valorize_introduction.html#kesimpulan-singkat",
     "href": "valorize_introduction.html#kesimpulan-singkat",
     "title": "1  Introduction to VALORIZE",
-    "section": "1.10 Kesimpulan Singkat",
-    "text": "1.10 Kesimpulan Singkat\nDalam dokumen ini, VALORIZE adalah sebuah solusi pendidikan komprehensif di era AI yang menggabungkan teknologi cerdas, kolaborasi pasar pengetahuan, dan pembelajaran personal untuk mencetak lulusan yang memiliki identitas profesional dan mampu menciptakan nilai nyata, bukan sekadar menghafal teori.",
+    "section": "1.11 Kesimpulan Singkat",
+    "text": "1.11 Kesimpulan Singkat\nDalam dokumen ini, VALORIZE adalah sebuah solusi pendidikan komprehensif di era AI yang menggabungkan teknologi cerdas, kolaborasi pasar pengetahuan, dan pembelajaran personal untuk mencetak lulusan yang memiliki identitas profesional dan mampu menciptakan nilai nyata, bukan sekadar menghafal teori.",
     "crumbs": [
       "Konsep",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to VALORIZE</span>"
