@@ -131,25 +131,113 @@
     ]
   },
   {
+    "objectID": "valorize_buktiempiris1.html",
+    "href": "valorize_buktiempiris1.html",
+    "title": "2  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "section": "",
+    "text": "2.0.1 A. Analisis Performa Akademik\nEfektivitas kerangka kerja VALORIZE (CKM-SE) divalidasi melalui studi kuasi-eksperimental pada mata kuliah Probabilitas & Statistika (\\(N=143\\)). Penelitian ini membandingkan kelas dengan penerapan Pembelajaran Kolaboratif (K2) melawan dua kelompok kontrol dengan metode konvensional (K1 & K3).\nBerdasarkan data Ujian Tengah Semester (UTS), berikut adalah perbandingan performa antara kelas intervensi dan kontrol:",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_buktiempiris1.html#c.-dampak-terhadap-kompetensi-profesional-non-kognitif",
+    "href": "valorize_buktiempiris1.html#c.-dampak-terhadap-kompetensi-profesional-non-kognitif",
+    "title": "2  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "section": "2.1 C. Dampak Terhadap Kompetensi Profesional (Non-Kognitif)",
+    "text": "2.1 C. Dampak Terhadap Kompetensi Profesional (Non-Kognitif)\nMeskipun hasil akademik bervariasi, dampak VALORIZE sangat konsisten dan kuat pada aspek pembentukan karakter profesional:\n\n\n\n\n\n\n\n\n\nDimensi Pengukuran\nEffect Size (\\(d\\))\nKategori Dampak\nDeskripsi\n\n\n\n\nMotivasi Intrinsik\n0.97\nBesar (Large)\nOtonomi dalam Knowledge Marketplace terbukti memacu semangat belajar.\n\n\nIdentitas Profesional\n0.84\nBesar (Large)\nMahasiswa merasa lebih dekat dengan peran insinyur profesional.\n\n\nTransfer Pembelajaran\n0.95\nBesar (Large)\nKemampuan adaptasi pada masalah baru meningkat signifikan.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_buktiempiris1.html#status-peta-jalan-riset",
+    "href": "valorize_buktiempiris1.html#status-peta-jalan-riset",
+    "title": "2  Bukti Empiris & Dampak Penelitian (Empirical Evidence)",
+    "section": "2.2 1.12 Status & Peta Jalan Riset",
+    "text": "2.2 1.12 Status & Peta Jalan Riset\nPenelitian ini dilaksanakan dalam tiga fase strategis (DSRM): * ✅ Fase 1 (Desain & Validasi): Selesai. Menghasilkan arsitektur CKM-SE dan validasi ahli. * ✅ Fase 2 (Prototipe & Pilot): Selesai. Pengembangan PUDAL/PSKVE Engine dan uji coba terbatas (\\(N=143\\)). * 🚀 Fase 3 (Implementasi Skala Penuh): Sedang Berlangsung. Perluasan ke 3 mata kuliah dengan target partisipan \\(N&gt;200\\).\nKesimpulan: VALORIZE memberikan dampak holistik. Sementara peningkatan akademik sedang berjalan bertahap, transformasi pada motivasi dan identitas profesional mahasiswa sudah menunjukkan hasil yang sangat masif dan signifikan.\nLAMPIRAN\n\nAcknowledgment: Penelitian ini didukung oleh hibah Riset Kolaborasi Indonesia (RKI) - Prioritas Riset Nasional (PRN) 2025.",
+    "crumbs": [
+      "Konsep",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bukti Empiris & Dampak Penelitian (Empirical Evidence)</span>"
+    ]
+  },
+  {
     "objectID": "valorize_content1.html",
     "href": "valorize_content1.html",
-    "title": "2  Content1",
+    "title": "3  Content1",
     "section": "",
     "text": "Coming soon!",
     "crumbs": [
       "Konsep",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Content1</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Content1</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_lampiranbuktiempiris1.html",
+    "href": "valorize_lampiranbuktiempiris1.html",
+    "title": "4  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "section": "",
+    "text": "4.1 1. Statistik Deskriptif (Descriptive Statistics)\nDokumen ini merinci asal-usul data dan prosedur perhitungan statistik yang digunakan untuk memvalidasi efektivitas kerangka kerja VALORIZE (CKM-SE). Analisis dilakukan menggunakan dataset nilai Ujian Tengah Semester (UTS) mata kuliah Probabilitas & Statistika (\\(N=143\\)).\nAngka-angka ini memberikan gambaran umum tentang pusat data (central tendency) dan sebarannya (dispersion) untuk setiap kelompok kelas.",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_lampiranbuktiempiris1.html#statistik-deskriptif-descriptive-statistics",
+    "href": "valorize_lampiranbuktiempiris1.html#statistik-deskriptif-descriptive-statistics",
+    "title": "4  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "section": "",
+    "text": "4.1.1 A. Rata-rata Skor (Mean)\nDihitung dengan menjumlahkan seluruh nilai mahasiswa dalam satu kelas, dibagi dengan jumlah mahasiswa (\\(N\\)).\n\nRumus: \\(\\bar{x} = \\frac{\\sum x_i}{N}\\)\nPerhitungan:\n\nK1 (Kontrol 1): Total Skor \\(775 \\div 35\\) Mahasiswa = 22.14\nK2 (Intervensi): Total Skor \\(1.396 \\div 56\\) Mahasiswa = 24.93\nK3 (Kontrol 2): Total Skor \\(1.770 \\div 52\\) Mahasiswa = 34.04\n\n\n\n\n4.1.2 B. Standar Deviasi (Standard Deviation)\nMengukur seberapa jauh variasi nilai mahasiswa dari rata-rata kelasnya.\n\nK1 (\\(SD=12.35\\)): Variasi nilai tinggi (kemampuan mahasiswa sangat beragam/timpang).\nK2 (\\(SD=12.55\\)): Variasi nilai tinggi.\nK3 (\\(SD=9.92\\)): Variasi nilai paling rendah.\n\nInterpretasi: Nilai mahasiswa di kelas K3 lebih “seragam” dan konsisten di angka tinggi, menunjukkan metode pengajaran berhasil merata ke hampir seluruh mahasiswa.",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_lampiranbuktiempiris1.html#uji-signifikansi-one-way-anova",
+    "href": "valorize_lampiranbuktiempiris1.html#uji-signifikansi-one-way-anova",
+    "title": "4  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "section": "4.2 2. Uji Signifikansi: One-Way ANOVA",
+    "text": "4.2 2. Uji Signifikansi: One-Way ANOVA\nUji ini menjawab pertanyaan: “Apakah perbedaan rata-rata antar kelas ini nyata atau hanya kebetulan?”\n\nF-Statistic (\\(F\\)): 13.34\n\nAngka ini adalah rasio antara variasi antar-kelompok (perbedaan method) dibagi variasi dalam-kelompok (perbedaan individu). Semakin tinggi nilai F, semakin besar dampak metode pengajaran dibanding faktor individu.\n\nP-Value (\\(p\\)): \\(4.96 \\times 10^{-6}\\) (&lt; 0.001)\n\nNilai probabilitas kesalahan hampir nol.\nKesimpulan: Kita memiliki keyakinan &gt;99.9% bahwa perbedaan hasil belajar ini signifikan secara statistik dan bukan disebabkan oleh faktor acak.",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_lampiranbuktiempiris1.html#analisis-lanjut-post-hoc-tukey-hsd",
+    "href": "valorize_lampiranbuktiempiris1.html#analisis-lanjut-post-hoc-tukey-hsd",
+    "title": "4  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "section": "4.3 3. Analisis Lanjut: Post-hoc Tukey HSD",
+    "text": "4.3 3. Analisis Lanjut: Post-hoc Tukey HSD\nSetelah ANOVA menyatakan “ada beda”, uji Tukey menentukan “siapa beda dengan siapa” dengan menghitung selisih rata-rata (\\(\\Delta Mean\\)).\n\n\n\n\n\n\n\n\n\nPerbandingan\nPerhitungan (\\(\\Delta Mean\\))\nHasil\nInterpretasi\n\n\n\n\nK2 vs K1\n\\(24.93 - 22.14 = \\mathbf{+2.79}\\)\nTidak Signifikan (\\(p&gt;0.05\\))\nIntervensi awal (K2) mulai menunjukkan tren positif dibanding baseline terendah, meski belum drastis.\n\n\nK3 vs K2\n\\(34.04 - 24.93 = \\mathbf{+9.11}\\)\nSignifikan (\\(p&lt;0.001\\))\nTerdapat gap performa yang nyata antara Kontrol Unggulan (K3) dengan Intervensi (K2).",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
+    ]
+  },
+  {
+    "objectID": "valorize_lampiranbuktiempiris1.html#ukuran-dampak-effect-size-cohens-d",
+    "href": "valorize_lampiranbuktiempiris1.html#ukuran-dampak-effect-size-cohens-d",
+    "title": "4  Lampiran Teknis: Metodologi & Perhitungan Statistik",
+    "section": "4.4 4. Ukuran Dampak (Effect Size): Cohen’s d",
+    "text": "4.4 4. Ukuran Dampak (Effect Size): Cohen’s d\nMetrik ini adalah standar emas dalam riset pendidikan untuk mengukur seberapa kuat dampak sebuah intervensi, terlepas dari jumlah sampelnya.\nRumus: \\(d = \\frac{\\bar{x}_1 - \\bar{x}_2}{SD_{pooled}}\\)\n\n4.4.1 A. Dampak Intervensi terhadap Baseline (K2 vs K1)\n\nSelisih Rata-rata: \\(2.79\\)\nStandar Deviasi Gabungan (\\(SD_{pooled}\\)): \\(\\approx 12.45\\)\nPerhitungan: \\(2.79 \\div 12.45 = \\mathbf{0.22}\\)\nKategori: Small Effect (Dampak Kecil).\nMakna: Metode kolaboratif di K2 memberikan dampak positif awal, namun masih perlu dioptimalkan.\n\n\n\n4.4.2 B. Perbandingan dengan Performa Puncak (K3 vs K2)\n\nSelisih Rata-rata: \\(9.11\\)\nStandar Deviasi Gabungan (\\(SD_{pooled}\\)): \\(\\approx 11.3\\)\nPerhitungan: \\(9.11 \\div 11.3 = \\mathbf{0.80}\\)\nKategori: Large Effect (Dampak Besar).\nMakna: Perbedaan antara kelas K3 dan K2 sangat tajam. Ini menjadi temuan penting untuk evaluasi selanjutnya: faktor apa di K3 (apakah input mahasiswa atau metode instruktur) yang menyebabkan skor sangat tinggi ini?\n\n\nRingkasan Akhir: Analisis data membuktikan bahwa penerapan awal VALORIZE (K2) berhasil mengangkat performa di atas batas bawah (baseline) kelas konvensional (K1). Namun, tantangan berikutnya adalah meningkatkan efektivitasnya agar dapat menyamai atau melampaui performa kelas unggulan (K3).",
+    "crumbs": [
+      "Lampiran",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Lampiran Teknis: Metodologi & Perhitungan Statistik</span>"
     ]
   },
   {
     "objectID": "valorize_support.html",
     "href": "valorize_support.html",
-    "title": "3  Kementrian Pendidikan Tinggi, Sains, dan Teknologi",
+    "title": "5  Kementrian Pendidikan Tinggi, Sains, dan Teknologi",
     "section": "",
     "text": "Link Kemdiktisaintek Klik Disini.\nPendidikan Tinggi, Sains dan Teknologi, memegang peran kunci dalam mewujudkan Indonesia Emas 2045. Kita perlu membangun sistem pendidikan tinggi yang berkeadilan, relevan, dan berdampak. Transformasi ini harus mampu membuka akses seluas mungkin dengan kualitas yang setara di seluruh Indonesia. Diktisaintek Berdampak adalah gerakan nasional untuk mewujudkan hal itu",
     "crumbs": [
       "Support",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kementrian Pendidikan Tinggi, Sains, dan Teknologi</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Kementrian Pendidikan Tinggi, Sains, dan Teknologi</span>"
     ]
   }
 ]

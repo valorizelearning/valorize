@@ -14,7 +14,11 @@ book:
     - part: Konsep
       chapters:
         - valorize_introduction.ipynb
+        - valorize_buktiempiris1.ipynb
         - valorize_content1.ipynb
+    - part: Lampiran
+      chapters:
+        - valorize_lampiranbuktiempiris1.ipynb
     - part: Support
       chapters:
         - valorize_support.ipynb
