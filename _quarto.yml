@@ -11,6 +11,11 @@ book:
   sharing: [twitter, facebook]
   chapters:
     - index.md
+    - part: Terminologi (Tata Istilah)
+      chapters:
+      - terminologi_SE.ipynb
+      - terminologi_PSKVE.ipynb
+      - terminologi_PUDAL.ipynb
     - part: Ide Dasar
       chapters:
       - vjawaba1_definisinilaidancontohnilaiyangdiacu.ipynb
