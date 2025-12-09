@@ -22,8 +22,10 @@ book:
       - terminologi_PUDAL.ipynb
     - part: Paper
       chapters:
-      - p_judul.ipynb
-      - p_abstract.ipynb
+      - p_1_judul.ipynb
+      - p_2_abstract.ipynb
+      - p_3_introduction.ipynb
+      - p_4_conceptual.ipynb
     - part: Ide Dasar
       chapters:
       - vjawaba1_definisinilaidancontohnilaiyangdiacu.ipynb
