@@ -11,9 +11,10 @@ book:
   sharing: [twitter, facebook]
   chapters:
     - index.md
-    - part: Domain Utama Penelitian
+    - part: Domain Penelitian
       chapters:
-      - domainutama.ipynb
+      - domain_komponenjudul.ipynb
+      - domain_slr.ipynb
     - part: Terminologi (Tata Istilah)
       chapters:
       - terminologi_SE.ipynb
