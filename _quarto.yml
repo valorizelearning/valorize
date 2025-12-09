@@ -20,6 +20,10 @@ book:
       - terminologi_SE.ipynb
       - terminologi_PSKVE.ipynb
       - terminologi_PUDAL.ipynb
+    - part: Paper
+      chapters:
+      - p_judul.ipynb
+      - p_abstract.ipynb
     - part: Ide Dasar
       chapters:
       - vjawaba1_definisinilaidancontohnilaiyangdiacu.ipynb
