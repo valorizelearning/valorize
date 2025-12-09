@@ -1,0 +1,95 @@
+\chapter{TINJAUAN PUSTAKA}
+\label{chapter:2}
+
+Bab Studi Literatur digunakan untuk mendeskripsikan kajian literatur yang terkait dengan persoalan tugas akhir. Tujuan studi literatur adalah:
+
+\begin{enumerate}
+    \item menunjukkan kepada pembaca adanya gap seperti pada rumusan masalah yang memang belum terselesaikan,
+    \item memberikan pemahaman yang secukupnya kepada pembaca tentang teori atau pekerjaan terkait yang terkait langsung dengan penyelesaian persoalan, serta
+    \item menyampaikan informasi apa saja yang sudah ditulis/dilaporkan oleh pihak lain (peneliti/Tugas Akhir/Tesis) tentang hasil penelitian/pekerjaan mereka yang sama atau mirip kaitannya dengan persoalan tugas akhir.
+\end{enumerate}
+
+\section{Dasar Teori}
+Perujukan literatur dapat dilakukan dengan menambahkan entri baru di berkas. Tulisan ini merujuk pada \parencite{knuth2001art}. Ini adalah contoh penggunaan singkatan yang telah didefinisikan: penggunaan pertama: \gls{utc}, kedua dan selanjutnya: \gls{utc}. Juga dapat digunakan singkatan lain: \gls{adt}, \gls{est}. Berikut adalah contoh penggunaan lambang: \gls{symb:pi}, \gls{symb:avogadro}.
+
+    \subsection{Bekerja dengan Float}
+
+    Float adalah \textit{container} untuk elemen-elemen dokumen yang tidak dapat dipisah menjadi beberapa halaman. Environment ``table'' dan ``figure'' secara default adalah float. Float berguna untuk memudahkan peletakan objek yang tidak cukup jika diletakkan di halaman sekarang. Peletakan float diatur oleh \LaTeX\ dan pengguna sebaiknya memberikan keleluasaan kepada \LaTeX\ agar dapat mengatur peletakan dengan baik. 
+    
+    \subsubsection{Gambar}
+    
+    Float bisa di-\textit{cross reference}. Contohnya Gambar~\ref{fig:contoh_gambar} adalah contoh gambar.
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{resources/chapter-2-infrastructure-diagram.png}
+        \caption[Contoh caption yang muncul di daftar]{Contoh gambar}
+        \label{fig:contoh_gambar}
+    \end{figure}
+
+    \subsubsection{Tabel}
+
+    Tabel juga merupakan float. Tabel~\ref{table:contoh_tabel} adalah contoh tabel.
+
+    \begin{table}[htbp]
+        \small
+        \centering
+        \caption{Contoh tabel}
+        \label{table:contoh_tabel}
+        \begin{tabular}{ll}
+            \toprule
+            \multicolumn{1}{l}{\textbf{Contoh Judul Kolom}} & \multicolumn{1}{l}{\textbf{Nilai}}\\
+            \midrule
+            Besaran 1 & 12 meter          \\
+            Besaran 2 & $360^\circ$       \\
+            Besaran 3 & 0,2 meter         \\
+            Besaran 4 & $1^\circ$         \\
+            Besaran 5 & 8000 sampel/detik \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+
+	\subsection{Algoritma}
+	
+	\blindtext Algoritma \ref{algoritma:ekf}  \parencite{leonard1991mobile, thrun2005probabilistic} menunjukkan contoh penulisan algoritma.
+	
+	\begin{algorithm}
+		\caption{Extended Kalman Filter Localization}
+		\label{algoritma:ekf}
+		\begin{algorithmic}[1]
+			\Function{EKFLocalization}{$\mu_{t-1}, \Sigma_{t-1}, u_t, z_t, m$}
+			\State $\bar{\mu}_t = $ \textbf{motion\_model}($u_t, \mu_{t-1}$)
+			\State $\bar{\Sigma}_t = G_t \Sigma_{t-1} G_t^T + V_t M_t V_t^T$
+			\For {all observed features $z_t^i = (r_t^i \ \phi_t^i \ s_t^i)^T$}
+			\For {all landmarks $k$ in the map $m$}
+			\State $\hat{z}_t^k = $ \textbf{measurement\_model}($\bar{\mu}_t, m$)
+			\State $S_t^k = H_t^k \bar{\Sigma}_t [H_t^k]^T + Q_t$ 
+			\EndFor
+			\State $j(i) = \argmax\limits_{x} \det(2 \pi S_t^k)^{\frac{1}{2}} \exp\{-\frac{1}{2} (z_t^i - \hat{z}_t^k)^T [S_t^k]^{-1} (z_t^i - \hat{z}_t^k)\}$
+			\State $K_t^i = \bar{\Sigma}_t [H_t^{j(i)}]^T [S_t^{j(i)}]^{-1}$
+			\State $\bar{\mu}_t = \bar{\mu}_t + K_t^i (z_t^i - \hat{z}_t^{j(i)})$
+			\State $\bar{\Sigma}_t = (I - K_t^i H_t^{j(i)}) \bar{\Sigma}_t$
+			\EndFor
+			\State $\mu_t = \bar{\mu}_t$
+			\State $\Sigma_t = \bar{\Sigma}_t$
+			\State \Return $\mu_t, \Sigma_t$
+			\EndFunction
+		\end{algorithmic}
+	\end{algorithm}	
+
+    \subsection{Persamaan Matematika}
+
+    \blindtext Persamaan~\eqref{eq:contoh_equation} adalah contoh persamaan matematika,
+    \begin{align}
+        c^2 = a^2 + b^2\,.
+    \label{eq:contoh_equation}
+    \end{align}
+    
+    Contoh penggunaan notasi custom,
+    \begin{align}
+        \bayes{x}{y}\,.
+    \label{eq:contoh_equation_custom}
+    \end{align}
+
+\section{Studi Terkait}
+\blindtext
