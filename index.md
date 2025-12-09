@@ -12,7 +12,7 @@ Kerangka Kerja Manajemen Pengetahuan Kolaboratif Berbasis Rekayasa Cerdas untuk 
 _Collaborative Knowledge Management Framework Based on Smart Engineering for Value-Oriented Higher Education_
 
 # Introduction {.unnumbered}
-VALORIZE Learning Framework [Klik Disini](https://valorizelearning.github.io/valorize/) 
+VALORIZE *Learning Framework* [Klik Disini](https://valorizelearning.github.io/valorize/) 
 
 ::: {.callout-note appearance="simple"}
 Kata “VALORIZE” berasal dari bahasa Prancis valoriser dan akar Latin valor (value/nilai).
