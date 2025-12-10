@@ -26,6 +26,10 @@ book:
       - p_2_abstract.ipynb
       - p_3_introduction.ipynb
       - p_4_conceptual.ipynb
+      - p_5_metodologi.ipynb
+      - p_6_hasipenelitian.ipynb
+      - p_7_discussion.ipynb
+      - p_8_kesimpulan.ipynb
     - part: Ide Dasar
       chapters:
       - vjawaba1_definisinilaidancontohnilaiyangdiacu.ipynb
