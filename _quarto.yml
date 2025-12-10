@@ -20,7 +20,18 @@ book:
       - terminologi_SE.ipynb
       - terminologi_PSKVE.ipynb
       - terminologi_PUDAL.ipynb
-    - part: Paper
+    - part: Paper 10 Des 2025
+      chapters:
+      - p2_0_coba.ipynb
+      - p2_1_judul.ipynb
+      - p2_2_abstract.ipynb
+      - p2_3_introduction.ipynb
+      - p2_4_conceptual.ipynb
+      - p2_5_metodologi.ipynb
+      - p2_6_hasipenelitian.ipynb
+      - p2_7_discussion.ipynb
+      - p2_8_kesimpulan.ipynb    
+    - part: Paper 9 Des 2025
       chapters:
       - p_1_judul.ipynb
       - p_2_abstract.ipynb
