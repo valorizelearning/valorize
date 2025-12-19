@@ -45,8 +45,6 @@ Inilah VALORIZE: Pendidikan yang memanusiakan, mempersonalisasi, dan memberdayak
 | **Management** (Pengelolaan) | Menyimpan di KMS, Berbagi di dalam Tim | Pengetahuan yang Terorganisir |
 | **Valorization** (Valorisasi) | Implementasi, Komersialisasi, Inovasi | Nilai Ekonomi dan Sosial |
 
----
-
 ## Penjelasan Tahapan
 
 ### 1. Creation (Penciptaan)
