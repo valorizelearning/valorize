@@ -21,6 +21,8 @@ book:
       - terminologi_PSKVE.ipynb
       - terminologi_PUDAL.ipynb
       - konsep_vcc.ipynb
+      - konsep_modelvsfw.ipynb
+      - konsep_vccedu.ipynb
     - part: Paper 10 Des 2025
       chapters:
       - p2_0_coba.ipynb
