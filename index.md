@@ -63,6 +63,7 @@ Jadi, valorisasi adalah tindakan nyata untuk memastikan bahwa pengetahuan, data,
 1. Inti dari Valorize: "Turning Potential into Value"
 
 Bayangkan Anda memiliki tumpukan data besar (Big Data) dari sebuah mesin pabrik.
+
 - Data mentah tersebut adalah Potensi.
 - Analisis AI yang menemukan cara agar mesin tidak boros listrik adalah Proses.
 - Penghematan biaya listrik yang didapat perusahaan adalah hasil Valorisasi.
@@ -70,6 +71,7 @@ Bayangkan Anda memiliki tumpukan data besar (Big Data) dari sebuah mesin pabrik.
 2. Bukan Sekadar Uang (Monetisasi)
 
 Meskipun sering dikaitkan dengan keuntungan finansial, valorisasi juga mencakup:
+
 - Nilai Sosial: Mengubah hasil riset kesehatan menjadi kebijakan publik yang menyelamatkan nyawa.
 - Nilai Operasional: Mengubah ide karyawan menjadi cara kerja yang lebih cepat dan tidak melelahkan.
 - Nilai Lingkungan: Mengubah limbah produksi menjadi produk baru yang ramah lingkungan.
